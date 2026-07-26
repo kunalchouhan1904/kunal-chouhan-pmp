@@ -1,21 +1,47 @@
 .sidebar {
-  height: 100%;
-  overflow: hidden;
-  background: #fff;
-  border-right: 1px solid #e5e7eb;
   display: flex;
   flex-direction: column;
+
+  height: 100%;
+
+  background: #ffffff;
+
+  border-right: 1px solid #e5e7eb;
+
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+/* ===============================
+   NAVIGATION
+=============================== */
+
+.sidebar nav {
+  display: flex;
+  flex-direction: column;
+
   padding: 16px 0;
 }
+
+/* ===============================
+   LINKS
+=============================== */
 
 .sidebar a {
   display: flex;
   align-items: center;
-  text-decoration: none;
+  gap: 14px;
+
+  padding: 16px 28px;
+
   color: #374151;
-  padding: 14px 22px;
-  font-size: 15px;
+
+  text-decoration: none;
+
+  font-size: 18px;
   font-weight: 500;
+
+  transition: background 0.25s ease;
 }
 
 .sidebar a:hover {
@@ -24,5 +50,5 @@
 
 .sidebar a.active {
   background: #1976d2;
-  color: #fff;
-}   
+  color: #ffffff;
+}

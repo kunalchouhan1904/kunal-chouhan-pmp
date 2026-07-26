@@ -1,45 +1,70 @@
 .header {
+  height: 70px;
 
-    height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 
-    flex-shrink: 0;
+  padding: 0 40px;
 
-    display: flex;
-
-    align-items: center;
-
-    justify-content: space-between;
-
-    padding: 0 30px;
-
-    background: #1976d2;
-
-    color: white;
-
+  background: #1976d2;
+  color: #ffffff;
 }
 
+/* ===============================
+   LOGO
+=============================== */
+
 .logo {
+  font-size: 22px;
+  font-weight: 700;
+  white-space: nowrap;
+}
 
-    font-size: 24px;
+/* ===============================
+   SEARCH
+=============================== */
 
-    font-weight: bold;
+.search {
+  flex: 1;
 
+  display: flex;
+  justify-content: center;
+
+  padding: 0 40px;
 }
 
 .search input {
+  width: 100%;
+  max-width: 600px;
 
-    width: 350px;
+  height: 48px;
 
-    padding: 10px;
+  border: none;
+  border-radius: 8px;
 
-    border-radius: 6px;
+  padding: 0 18px;
 
-    border: none;
+  outline: none;
 
+  font-size: 16px;
 }
 
+.search input::placeholder {
+  color: #8b8b8b;
+}
+
+/* ===============================
+   USER
+=============================== */
+
 .user {
+  display: flex;
+  align-items: center;
+  gap: 10px;
 
-    font-weight: bold;
+  font-size: 18px;
+  font-weight: 600;
 
+  white-space: nowrap;
 }
