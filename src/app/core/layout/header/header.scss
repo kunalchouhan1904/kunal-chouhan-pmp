@@ -1,0 +1,45 @@
+.header {
+
+    height: 70px;
+
+    flex-shrink: 0;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: space-between;
+
+    padding: 0 30px;
+
+    background: #1976d2;
+
+    color: white;
+
+}
+
+.logo {
+
+    font-size: 24px;
+
+    font-weight: bold;
+
+}
+
+.search input {
+
+    width: 350px;
+
+    padding: 10px;
+
+    border-radius: 6px;
+
+    border: none;
+
+}
+
+.user {
+
+    font-weight: bold;
+
+}

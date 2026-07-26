@@ -1,61 +1,37 @@
 import { Routes } from '@angular/router';
 
+import { Layout } from './core/layout/layout/layout';
+
+import { Dashboard } from './features/dashboard/dashboard';
+import { StudyPlan } from './features/study-plan/study-plan';
+import { Learning } from './features/learning/learning';
+import { Practice } from './features/practice/practice';
+import { MockExams } from './features/mock-exams/mock-exams';
+import { Review } from './features/review/review';
+import { Resources } from './features/resources/resources';
+import { Flashcards } from './features/flashcards/flashcards';
+import { Notes } from './features/notes/notes';
+import { Analytics } from './features/analytics/analytics';
+
 export const routes: Routes = [
   {
     path: '',
-    loadComponent: () =>
-      import('./shared/layout/layout/layout')
-        .then(m => m.Layout),
-
+    component: Layout,
     children: [
-      {
-        path: '',
-        pathMatch: 'full',
-        loadComponent: () =>
-          import('./features/dashboard/dashboard')
-            .then(m => m.Dashboard)
-      },
-      {
-        path: 'practice',
-        loadComponent: () =>
-          import('./features/practice/practice')
-            .then(m => m.Practice)
-      },
-      {
-        path: 'exams',
-        loadComponent: () =>
-          import('./features/exams/exams')
-            .then(m => m.Exams)
-      },
-      {
-        path: 'review',
-        loadComponent: () =>
-          import('./features/review/review')
-            .then(m => m.Review)
-      },
-      {
-        path: 'analytics',
-        loadComponent: () =>
-          import('./features/analytics/analytics')
-            .then(m => m.Analytics)
-      },
-      {
-        path: 'profile',
-        loadComponent: () =>
-          import('./features/profile/profile')
-            .then(m => m.Profile)
-      },
-      {
-        path: 'settings',
-        loadComponent: () =>
-          import('./features/settings/settings')
-            .then(m => m.Settings)
-      }
+      { path: '', redirectTo: 'dashboard', pathMatch: 'full' },
+
+      { path: 'dashboard', component: Dashboard },
+      { path: 'study-plan', component: StudyPlan },
+      { path: 'learning', component: Learning },
+      { path: 'practice', component: Practice },
+      { path: 'mock-exams', component: MockExams },
+      { path: 'review', component: Review },
+      { path: 'resources', component: Resources },
+      { path: 'flashcards', component: Flashcards },
+      { path: 'notes', component: Notes },
+      { path: 'analytics', component: Analytics }
     ]
   },
 
-  {
-    path: '**',
-    redirectTo: ''
-  }
+  { path: '**', redirectTo: 'dashboard' }
 ];
