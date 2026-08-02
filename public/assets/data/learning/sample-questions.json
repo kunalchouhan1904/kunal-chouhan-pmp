@@ -1,0 +1,2537 @@
+[
+  {
+    "id": 1,
+    "domain": "People",
+    "difficulty": "Medium",
+    "question": "A junior team member asks the project manager for career mentorship related to their role on the project. The project manager sees the person as a potential asset worth investing in. What is the MOST appropriate response?",
+    "options": {
+      "A": "Refer the team member to HR only, since career mentoring is outside the PM's remit.",
+      "B": "Recognize the mentoring opportunity and act on it, coordinating with the functional manager.",
+      "C": "Decide because mentoring is the responsibility of the team member's functional manager.",
+      "D": "Promise extensive mentorship to the team member without coordinating with their manager."
+    },
+    "answer": "B",
+    "explanation": "ECO Task 5 enabler 'Organize and act on mentoring opportunities.' PMBOK Guide 8's 'Be an Accountable Leader' includes developing team members. Coordination respects the matrix structure."
+  },
+  {
+    "id": 2,
+    "domain": "Process",
+    "difficulty": "Medium",
+    "question": "A statement of work (SOW) for an agile-oriented service engagement should typically:",
+    "options": {
+      "A": "Omit acceptance criteria entirely so that the supplier and customer can resolve them later.",
+      "B": "Be replaced with a verbal agreement that captures the engagement's intent without writing it down.",
+      "C": "List every feature in detail up front and freeze them all for the duration of the contract.",
+      "D": "Define outcomes, ways of working, governance, and capacity, with scope flexing via prioritization."
+    },
+    "answer": "D",
+    "explanation": "The Agile Practice Guide notes that agile-friendly contracts emphasize outcomes, capacity, and governance over detailed scope locked in advance. PMBOK Guide 8 acknowledges multiple SOW patterns depending on approach."
+  },
+  {
+    "id": 3,
+    "domain": "Business Environment",
+    "difficulty": "Hard",
+    "question": "The need to make a decision has surfaced that exceeds the project manager's documented authorization - a budget reallocation of about 8% across two work streams. What should the project manager do?",
+    "options": {
+      "A": "Cancel the project rather than escalate the decision that exceeds the project manager's authority.",
+      "B": "Wait passively for the responsible decision-maker to eventually notice the issue on their own.",
+      "C": "Make the decision anyway so as to maintain momentum on the project and avoid administrative delays.",
+      "D": "Follow the escalation path, providing the decision-maker with analysis, options, and a recommendation."
+    },
+    "answer": "D",
+    "explanation": "PMBOK Guide 8 §2.1 and ECO Task 1 enabler 'Outline governance escalation paths and thresholds.' Escalation with options is the PM's value-add, not abdication."
+  },
+  {
+    "id": 4,
+    "domain": "People",
+    "difficulty": "Medium",
+    "question": "Which techniques help build trust and influence with project stakeholders? (Choose 3)",
+    "options": {
+      "A": "Following through on commitments consistently.",
+      "B": "Active listening during stakeholder conversations.",
+      "C": "Withholding bad news until you have a complete solution.",
+      "D": "Demonstrating competence and expertise on the project domain.",
+      "E": "Restricting stakeholder access to information classified as 'internal team' only."
+    },
+    "answer": "A, B, D",
+    "explanation": "ECO Task 4 enabler 'Build trust and influence.' PMBOK Guide 8 (Stakeholders): trust rests on reliability, genuine listening, and demonstrated competence. Withholding bad news erodes trust once discovered; over-restricting information signals lack of transparency."
+  },
+  {
+    "id": 5,
+    "domain": "People",
+    "difficulty": "Medium",
+    "question": "An organization has invested in a comprehensive lessons-learned repository for two years, but project managers report rarely opening it during planning. Lessons learned from previous projects exist in the organization's knowledge repository but are rarely consulted. What is the MOST effective intervention?",
+    "options": {
+      "A": "Migrate the lessons-learned repository to a more expensive enterprise document system in the current circumstances.",
+      "B": "Mandate that every team member must read all repository entries before joining a project.",
+      "C": "Integrate lessons review into initiation and planning checkpoints, surfacing them when relevant.",
+      "D": "Delete the existing lessons-learned repository and start fresh with new project content."
+    },
+    "answer": "C",
+    "explanation": "PMBOK Guide 8 emphasizes that organizational process assets including lessons-learned databases must be used at moments of relevance to be useful. Process integration (C) creates that 'right moment' touchpoint."
+  },
+  {
+    "id": 6,
+    "domain": "People",
+    "difficulty": "Medium",
+    "question": "Which of the following are signs that a project manager is effectively empowering their team? (Choose 3)",
+    "options": {
+      "A": "Team members feel safe raising disagreements with the PM.",
+      "B": "The team makes most day-to-day execution decisions without escalating.",
+      "C": "The PM approves every technical choice before implementation.",
+      "D": "Team members proactively flag impediments and proposed solutions.",
+      "E": "All communication with stakeholders flows through the PM only."
+    },
+    "answer": "A, B, D",
+    "explanation": "Empowered teams show psychological safety, autonomous execution, and proactive problem ownership (Agile Practice Guide, PMBOK Guide 8). Approval gating (C) and communication funneling (E) are disempowerment markers."
+  },
+  {
+    "id": 7,
+    "domain": "Process",
+    "difficulty": "Medium",
+    "question": "Multiple parallel tasks on a project have been competing for the same senior engineer, and the project manager needs to choose a planning technique. Which technique reduces a project's resource demand when too many activities require the same scarce resource at the same time?",
+    "options": {
+      "A": "Scope creep, which expands the project's scope without any corresponding adjustment in resources.",
+      "B": "Resource leveling, which adjusts the project schedule to match the actual resource availability.",
+      "C": "Fast tracking, which overlaps sequential project activities to compress the overall schedule.",
+      "D": "Schedule crashing, which adds more resources to compress the duration of the project schedule."
+    },
+    "answer": "B",
+    "explanation": "PMBOK Guide 8 (Schedule Performance Domain): resource leveling adjusts the schedule to fit available resources, addressing over-allocation. Crashing and fast tracking address schedule compression, not over-allocation."
+  },
+  {
+    "id": 8,
+    "domain": "People",
+    "difficulty": "Hard",
+    "question": "On a large predictive project, the project manager has team members at very different experience levels. Which leadership approach is MOST appropriate?",
+    "options": {
+      "A": "Directive — apply a uniform telling style across all team members for consistency throughout the project's execution phase.",
+      "B": "Round robin — rotate the leadership role weekly across team members regardless of their competence.",
+      "C": "Decentral — delegate all project decisions to senior members and exclude juniors from discussions.",
+      "D": "Situational — directing, coaching, supporting, delegating — to each member's readiness."
+    },
+    "answer": "D",
+    "explanation": "PMBOK Guide 8 §3.6 (Be an Accountable Leader) and leadership theory support Situational Leadership: tailor your style to the individual's level of readiness for the specific task."
+  },
+  {
+    "id": 9,
+    "domain": "Process",
+    "difficulty": "Hard",
+    "question": "A project manager is selecting a development approach. The product has stable, well-understood requirements but the delivery technology is new and uncertain. Which approach is MOST suitable?",
+    "options": {
+      "A": "Hybrid - predictive planning for the known requirements and iterative cycles for the new technology.",
+      "B": "Pure predictive, treating the new technology risk as a standard execution issue to handle given the team's current capacity.",
+      "C": "Pure adaptive, treating the well-understood project requirements as inherently flexible items.",
+      "D": "Defer the development-approach decision until execution begins and more is known about both."
+    },
+    "answer": "A",
+    "explanation": "PMBOK Guide 8 (Project Life Cycles 4.3) treats requirements stability and technology certainty as separate axes when selecting a development approach. Stable requirements + uncertain technology calls for hybrid: predictive on the known, iterative on the unknown."
+  },
+  {
+    "id": 10,
+    "domain": "Process",
+    "difficulty": "Medium",
+    "question": "A project manager is briefing the team on quality economics before the next phase begins. Cost of quality (CoQ) includes:",
+    "options": {
+      "A": "Only the cost of fixing the defects that are found in the project's deliverables after delivery.",
+      "B": "Only the cost of training the project's team members in the relevant quality management techniques.",
+      "C": "Costs of conformance - prevention and appraisal - and nonconformance - internal and external failures.",
+      "D": "Only the cost of inspecting the project's deliverables to verify their conformance to quality criteria."
+    },
+    "answer": "C",
+    "explanation": "PMBOK Guide 8 (quality): CoQ encompasses prevention, appraisal, internal failure, and external failure costs. ECO Task 7 enabler 'Manage cost of quality (CoQ) and sustainability.'"
+  },
+  {
+    "id": 11,
+    "domain": "People",
+    "difficulty": "Medium",
+    "question": "An agile team delivers usable increments every two weeks but a key business stakeholder consistently skips reviews and then raises concerns weeks later. What should the project manager do?",
+    "options": {
+      "A": "Send all increments to the stakeholder by email and stop holding review sessions.",
+      "B": "Analyze the stakeholder's needs and tailor engagement so they can engage meaningfully.",
+      "C": "Remove the stakeholder from the project's stakeholder register since they are unengaged.",
+      "D": "Continue without the stakeholder; absence from reviews implies tacit approval."
+    },
+    "answer": "B",
+    "explanation": "ECO Task 4 enabler 'Analyze and tailor communication to stakeholder needs.' The Agile Practice Guide notes engagement formats must fit the stakeholder's reality. Assuming consent (A), removal (C), and abandoning the review (D) all degrade inspect-and-adapt."
+  },
+  {
+    "id": 12,
+    "domain": "People",
+    "difficulty": "Medium",
+    "question": "Which of the following are effective practices for promoting a shared product vision to a distributed agile team? (Choose 3)",
+    "options": {
+      "A": "Display the vision and product goal prominently in the team's shared workspace.",
+      "B": "Reference the vision when discussing trade-offs during backlog refinement.",
+      "C": "Limit vision discussions to the product owner only.",
+      "D": "Open each iteration planning event with a brief review of the vision.",
+      "E": "Replace the vision with iteration goals once development starts."
+    },
+    "answer": "A, B, D",
+    "explanation": "Agile Practice Guide emphasizes transparency of vision across the whole team. Visible artifacts, trade-off conversations, and recurring touchpoints at planning keep the vision current. Limiting to the PO (C) breaks transparency; replacing vision with iteration goals (E) conflates long-term direction with short-term scope."
+  },
+  {
+    "id": 13,
+    "domain": "Process",
+    "difficulty": "Hard",
+    "question": "A benefit-tracking system measures cumulative benefits monthly. Why is this MORE important on agile/incremental delivery than typically required on predictive delivery?",
+    "options": {
+      "A": "Because agile teams are inherently unable to estimate the value of their deliverables in advance.",
+      "B": "Because agile teams typically require more reporting overhead than predictive teams do in practice.",
+      "C": "Incremental delivery accrues value progressively; monitoring confirms it and informs reprioritization.",
+      "D": "There is no meaningful difference in importance between agile and predictive value measurement in line with current practice."
+    },
+    "answer": "C",
+    "explanation": "The Agile Practice Guide and PMBOK Guide §3.4: incremental delivery generates value over time; benefit measurement is the only way to confirm value flow and reorder the backlog accordingly. ECO Task 3 enabler 'Verify a measurement system is in place to track benefits.'"
+  },
+  {
+    "id": 14,
+    "domain": "People",
+    "difficulty": "Medium",
+    "question": "During a sprint review, a senior business stakeholder publicly criticizes a developer's implementation choices in front of the whole team. The developer becomes defensive. What should the project manager / Scrum Master do?",
+    "options": {
+      "A": "Redirect feedback to the increment rather than the person, and follow up privately.",
+      "B": "End the current sprint review session and reschedule it for a later date.",
+      "C": "Ask the product owner to publicly defend the developer's implementation choices.",
+      "D": "Allow the exchange to continue so the developer learns to handle stakeholder criticism."
+    },
+    "answer": "A",
+    "explanation": "The Sprint Review inspects the increment, not individual performance (Scrum Guide). Refocusing the feedback on the work and handling the interpersonal piece privately addresses both immediate dynamics and underlying issue."
+  },
+  {
+    "id": 15,
+    "domain": "People",
+    "difficulty": "Medium",
+    "question": "Two stakeholders submit contradictory change requests in the same change control board meeting. Which is the MOST appropriate first action?",
+    "options": {
+      "A": "Defer both change requests to the next CCB cycle without further comment or action since this approach is straightforward.",
+      "B": "Reject both change requests and ask the stakeholders to reconcile and resubmit them.",
+      "C": "Approve both change requests and let the execution phase resolve the contradiction.",
+      "D": "Facilitate discussion of the underlying interests behind each request before the CCB decides."
+    },
+    "answer": "D",
+    "explanation": "ECO People Task 5 enabler 'Facilitate discussions to align expectations.' PMBOK Guide 8 (Stakeholders) emphasizes surfacing underlying interests."
+  },
+  {
+    "id": 16,
+    "domain": "Business Environment",
+    "difficulty": "Medium",
+    "question": "A traditional PMO is debating how to govern an upcoming portfolio of agile-delivered product development efforts. Which of the following is GENERALLY appropriate for agile governance?",
+    "options": {
+      "A": "Value-based reviews at release boundaries that can decide to continue, adjust, or stop the work.",
+      "B": "No oversight at all, since adaptive teams are fully self-organizing and need no governance.",
+      "C": "Stage gates requiring complete detailed plans for the entire project before any execution begins.",
+      "D": "Daily approval of every line of code by an executive sponsor before it is committed to the codebase."
+    },
+    "answer": "A",
+    "explanation": "Agile Practice Guide 6 governance: outcome-based reviews at release boundaries align oversight with the value flow. Heavy stage gates (C) clash with adaptive delivery; no oversight (B) is not governance; daily executive approval (D) violates team empowerment."
+  },
+  {
+    "id": 17,
+    "domain": "Business Environment",
+    "difficulty": "Medium",
+    "question": "A planned organizational change will affect a project's resourcing model mid-execution. What should the PM do?",
+    "options": {
+      "A": "Lock the project's resourcing model as it is and refuse to align with the planned organizational change.",
+      "B": "Cancel the project on the grounds that the planned organizational change has made the project unviable.",
+      "C": "Ignore the planned organizational change until the project's current execution work has been finished.",
+      "D": "Evaluate the impact on the project, raise it with governance, and update plans to align with the new model."
+    },
+    "answer": "D",
+    "explanation": "ECO Task 7 enabler Evaluate the impact of organizational change on the project and determine required actions. Misalignment with org change creates avoidable friction."
+  },
+  {
+    "id": 18,
+    "domain": "Process",
+    "difficulty": "Medium",
+    "question": "After contract signature, a vendor delivers a milestone that meets contract terms but does not meet the customer's actual need. What is the MOST appropriate response?",
+    "options": {
+      "A": "Cancel the contract immediately and begin a new procurement to obtain what the project needs.",
+      "B": "Accept per contract, then engage the vendor on the gap, possibly through a formal change order.",
+      "C": "Continue with the project without raising or addressing the gap between contract and need to maintain process consistency.",
+      "D": "Reject the deliverable outright and refuse payment to the vendor until the actual need is met."
+    },
+    "answer": "B",
+    "explanation": "PMBOK Guide 8 (procurement): contractual conformance and value-to-business may differ; the gap is addressed through change orders or new procurement, not by violating the existing contract."
+  },
+  {
+    "id": 19,
+    "domain": "People",
+    "difficulty": "Medium",
+    "question": "A team is geographically distributed across three time zones. Synchronous meetings are difficult to schedule. What is the BEST approach?",
+    "options": {
+      "A": "Cancel all of the team's meetings to remove the time-zone scheduling problem entirely.",
+      "B": "Have only one time zone of the team work on the project at any given iteration cycle.",
+      "C": "Combine minimum synchronous touchpoints with strong asynchronous practices for the rest.",
+      "D": "Insist on holding synchronous meetings at hours that are convenient to the largest team group."
+    },
+    "answer": "C",
+    "explanation": "The Agile Practice Guide notes distributed teams require deliberate communication design. PMBOK Guide 8 (Stakeholders): tailor channel and timing. The mix balances cohesion with respect for team members' working hours."
+  },
+  {
+    "id": 20,
+    "domain": "People",
+    "difficulty": "Medium",
+    "question": "A team's daily standup has drifted into a status report to the project manager. What is the BEST corrective action?",
+    "options": {
+      "A": "Refocus the event on coordination and impediments; the PM may attend as an observer only.",
+      "B": "Cancel the daily standup, since it has drifted away from its original intended purpose to keep the schedule predictable.",
+      "C": "Lengthen the daily standup so it can cover a wider set of topics than just coordination.",
+      "D": "Continue with the current style; this gives the project manager useful daily information."
+    },
+    "answer": "A",
+    "explanation": "The Agile Practice Guide and Scrum Guide both describe the Daily Scrum/standup as the development team's planning and coordination event, not a status report. Refocusing maintains its purpose."
+  },
+  {
+    "id": 21,
+    "domain": "Business Environment",
+    "difficulty": "Hard",
+    "question": "A project's deliverable will significantly change how a large user group works. What should the project manager consider?",
+    "options": {
+      "A": "Only the technical implementation of the project's planned deliverable for the user population.",
+      "B": "Pushing the change to the operations team without preparing them for the new way of working at all.",
+      "C": "Delaying the project's deliverable indefinitely until the change concerns have all been resolved.",
+      "D": "Stakeholder readiness, communication, training, support, and feedback alongside technical delivery."
+    },
+    "answer": "D",
+    "explanation": "PMBOK Guide 8 (Stakeholders and Governance) and ECO Business Task 7 enablers: 'Assess organizational culture' and 'Evaluate the impact of organizational change.' Adoption is part of value realization."
+  },
+  {
+    "id": 22,
+    "domain": "Business Environment",
+    "difficulty": "Hard",
+    "question": "A traditional PMO leader asks the project manager to walk through how change is governed on the agile portion of a hybrid project. How does change control typically operate on an agile project?",
+    "options": {
+      "A": "Only the project manager has the authority to change the backlog at any point during the project.",
+      "B": "There is no change control on agile projects; all changes are accepted as part of being agile.",
+      "C": "Every change request requires formal CCB approval, regardless of how small or routine the change is.",
+      "D": "Within an iteration, the team protects the iteration goal; between iterations, the PO reprioritizes."
+    },
+    "answer": "D",
+    "explanation": "The Agile Practice Guide 85: the iteration is protected to allow focused work; between iterations, the PO re-orders the backlog. Light-weight 'change control' is embedded in the backlog management process."
+  },
+  {
+    "id": 23,
+    "domain": "Process",
+    "difficulty": "Hard",
+    "question": "The diagram shows a part of a project network diagram for a project with a tight deadline. Start dates as early morning, finish dates are evening. If all tasks are scheduled to begin at the early start date, what is true?",
+    "options": {
+      "A": "Option A",
+      "B": "Option B",
+      "C": "Option C",
+      "D": "Option D"
+    },
+    "answer": "A",
+    "explanation": "Explanation for Q23 not available in text."
+  },
+  {
+    "id": 24,
+    "domain": "People",
+    "difficulty": "Hard",
+    "question": "The project manager has noticed the team keeps re-discovering the same lessons rather than carrying them forward. An agile team's retrospectives generate insights every iteration, but lessons rarely persist beyond a couple of iterations and frequently get re-learned. What is the BEST corrective action?",
+    "options": {
+      "A": "Reduce the team's retrospective frequency from each iteration to once per release boundary.",
+      "B": "Document key outputs in a shared location and fold actions into working agreements or DoD.",
+      "C": "Stop running team retrospectives, since the insights they produce are not being retained.",
+      "D": "Have only senior members of the team attend the retrospectives going forward each iteration."
+    },
+    "answer": "B",
+    "explanation": "Agile Practice Guide: retrospectives drive continuous improvement only when actions are followed through. Persisting insights in living artifacts (working agreements, DoD) embeds learning."
+  },
+  {
+    "id": 25,
+    "domain": "Process",
+    "difficulty": "Medium",
+    "question": "Which of the following are appropriate closure activities? (Choose 3)",
+    "options": {
+      "A": "Confirm deliverable acceptance with stakeholders against agreed criteria.",
+      "B": "Conduct final retrospectives or lessons-learned sessions and contribute insights to organizational assets.",
+      "C": "Delete all project records to reclaim storage.",
+      "D": "Close contracts and reconcile financials.",
+      "E": "Pre-commit the team to the next project before finishing this one."
+    },
+    "answer": "A, B, D",
+    "explanation": "PMBOK Guide 8 §4.5.5 and ECO Task 10: acceptance, lessons learned, financial/contract close are standard. Deleting records (C) destroys OPAs; pre-committing the team (E) defeats the purpose of clean closure."
+  },
+  {
+    "id": 26,
+    "domain": "People",
+    "difficulty": "Hard",
+    "question": "Over the last three months on a multi-team hybrid program, the same kinds of disputes - about handoffs, ownership of integration work, and prioritization - keep coming back. A project manager observes that conflicts in their hybrid project keep recurring on the same topics. What is the MOST productive response?",
+    "options": {
+      "A": "Analyze the patterns to find structural causes - unclear roles, scarce resources, competing aims.",
+      "B": "Treat the recurrence as evidence of team dysfunction and request team-member changes.",
+      "C": "Introduce a no-conflict rule for the upcoming phase to maintain project momentum.",
+      "D": "Hire an external mediator for every dispute that arises within the project team to maintain process consistency."
+    },
+    "answer": "A",
+    "explanation": "ECO Task 2 enabler 'Identify conflict sources.' Recurring conflicts almost always signal a structural issue (roles, priorities, resources) rather than personality. PMBOK Guide 8's 'Be an Accountable Leader' calls for addressing the system."
+  },
+  {
+    "id": 27,
+    "domain": "People",
+    "difficulty": "Medium",
+    "question": "Which artifact BEST documents who needs what information, when, and how on a predictive project?",
+    "options": {
+      "A": "The project quality management plan, which defines quality criteria and review processes.",
+      "B": "The stakeholder register alone, which lists each stakeholder and their interest level.",
+      "C": "The communications management plan, which defines audience, content, format, and timing.",
+      "D": "The project risk register, which lists threats and opportunities identified by the team."
+    },
+    "answer": "C",
+    "explanation": "PMBOK Guide 8 (Stakeholders Performance Domain): the communications management plan defines the information needs, format, frequency, and channels for each audience."
+  },
+  {
+    "id": 28,
+    "domain": "Process",
+    "difficulty": "Medium",
+    "question": "During schedule training for the team, the project manager explains which scheduling artifact governs the minimum project duration. Which scheduling artifact identifies the longest path of dependent activities and thus determines the project's minimum duration?",
+    "options": {
+      "A": "A resource histogram showing each resource's allocation across the project's planned activities.",
+      "B": "The risk register, which lists project threats and opportunities along with response strategies.",
+      "C": "A burn-up chart showing scope completed against scope planned over the project's elapsed time.",
+      "D": "The critical path — the longest sequence of dependent activities determining minimum duration."
+    },
+    "answer": "D",
+    "explanation": "PMBOK Guide 8 (Schedule Performance Domain): the critical path is the longest sequence of dependent activities; delays on it directly delay the project. Burn-ups and histograms address other aspects."
+  },
+  {
+    "id": 29,
+    "domain": "Process",
+    "difficulty": "Medium",
+    "question": "Place the following typical iteration events in the correct order within a single iteration cycle.",
+    "options": {
+      "A": "Iteration planning",
+      "B": "Daily coordination meetings",
+      "C": "Iteration review with stakeholders",
+      "D": "Retrospective"
+    },
+    "answer": "A → B → C → D",
+    "explanation": "The Agile Practice Guide 5 and Scrum Guide describe a typical iteration (≡ sprint): planning at the start, daily coordination during, review with stakeholders near the end, retrospective to close (inspect and adapt before the next iteration)."
+  },
+  {
+    "id": 30,
+    "domain": "Business Environment",
+    "difficulty": "Medium",
+    "question": "A senior developer on the agile team has just messaged the Scrum Master to say that a missing third-party API key is blocking the most important item in this iteration. A developer reports an impediment that blocks a critical work item. What is the Scrum Master / project manager's MOST appropriate response?",
+    "options": {
+      "A": "Evaluate impact, prioritize relative to other issues, and apply an intervention to remove the blocker.",
+      "B": "Reassign the blocked work to another developer without addressing the underlying impediment itself.",
+      "C": "Tell the developer to find a workaround so that the work item is not actually blocked anymore in the current circumstances.",
+      "D": "Wait until the next retrospective to discuss the impediment with the team in a structured setting."
+    },
+    "answer": "A",
+    "explanation": "The Agile Practice Guide: removing impediments is a core servant-leadership responsibility. ECO Business Task 4 enablers: Evaluate the impact of impediments, Prioritize and highlight impediments, Determine and apply an intervention strategy."
+  },
+  {
+    "id": 31,
+    "domain": "Process",
+    "difficulty": "Medium",
+    "question": "An agile product is in continuous delivery; there is no single end date. How should closure activities be approached?",
+    "options": {
+      "A": "Apply closure at meaningful boundaries — phase end, release end, funding cycle end, product sunset.",
+      "B": "Skip closure activities entirely on the grounds that continuous delivery has no project end date.",
+      "C": "Apply closure activities at the end of every iteration regardless of release or funding boundaries.",
+      "D": "Run closure activities only when the team is fully disbanded and the product is no longer maintained."
+    },
+    "answer": "A",
+    "explanation": "The Agile Practice Guide §6: closure-style activities (lessons learned, financial reconciliation, transition) attach to meaningful boundaries in continuous products, not arbitrary cadences."
+  },
+  {
+    "id": 32,
+    "domain": "People",
+    "difficulty": "Medium",
+    "question": "Several stakeholders expect agile delivery to mean 'we can change anything at any time at no cost.' How should the project manager align expectations?",
+    "options": {
+      "A": "Explain that agile welcomes change but new work displaces other work in the same iteration.",
+      "B": "Refuse to discuss agile principles with stakeholders who are not familiar with agile.",
+      "C": "Convert the project back to a predictive approach to better manage scope expectations.",
+      "D": "Agree, since agile values responding to change over rigidly following a written plan while preserving the project's governance."
+    },
+    "answer": "A",
+    "explanation": "The Agile Practice Guide is explicit that responding to change does not mean 'free' change - capacity is finite; new work displaces other work. Honest framing aligns expectations without abandoning agility."
+  },
+  {
+    "id": 33,
+    "domain": "Business Environment",
+    "difficulty": "Medium",
+    "question": "An organization with five active programs is trying to make its lessons-learned practice produce results across projects, not just within them. How can lessons learned BEST contribute to continuous improvement at the organizational level?",
+    "options": {
+      "A": "Disposed of at project closure once the team has had a chance to discuss them in a session.",
+      "B": "Stored privately by each individual project manager for use in their own future projects later on.",
+      "C": "Discussed informally only at the end of each project without any formal documentation produced.",
+      "D": "Captured in OPAs, surfaced at relevant moments in future projects, and used to update standards."
+    },
+    "answer": "D",
+    "explanation": "PMBOK Guide § 6.2.2 OPAs: organizational improvement requires institutional capture and re-use. ECO Business Task 6 enabler 'Utilize lessons learned' and 'Update organizational process assets (OPAs).'"
+  },
+  {
+    "id": 34,
+    "domain": "Process",
+    "difficulty": "Medium",
+    "question": "How is scope typically managed in agile delivery?",
+    "options": {
+      "A": "Defined fully up front at the start of the project and then frozen for the entire project duration.",
+      "B": "Ignored entirely in favor of velocity-based metrics measuring throughput of the development team.",
+      "C": "Captured as a product backlog that is continuously ordered and refined based on value and feedback.",
+      "D": "Determined unilaterally by the development team at the start of each iteration cycle on the project."
+    },
+    "answer": "C",
+    "explanation": "The Agile Practice Guide: scope is managed through a continuously refined and ordered product backlog. PMBOK Guide § 4.2.2: adaptive approaches use evolving scope through backlog management."
+  },
+  {
+    "id": 35,
+    "domain": "People",
+    "difficulty": "Medium",
+    "question": "A program director is briefing a new sponsor on what 'empowering the team' will mean in practice. Empowering an agile team means:",
+    "options": {
+      "A": "Authority over HOW to deliver, while the product owner stays accountable for WHAT.",
+      "B": "Removing all management and governance oversight from the project for its duration.",
+      "C": "Allowing the team to bypass organizational compliance requirements when convenient.",
+      "D": "Letting the team decide everything, including business priorities and budget allocation."
+    },
+    "answer": "A",
+    "explanation": "The Agile Practice Guide and Scrum Guide both delineate: product owner accountable for WHAT and order; developers accountable for HOW. Empowerment is bounded by accountability and compliance."
+  },
+  {
+    "id": 36,
+    "domain": "Process",
+    "difficulty": "Medium",
+    "question": "A project manager moving from predictive to agile delivery is considering how the team will be composed. Agile teams are typically:",
+    "options": {
+      "A": "Re-formed at the start of every iteration with a different combination of team members.",
+      "B": "Composed exclusively of senior staff who have many years of experience in the relevant domain.",
+      "C": "Cross-functional and stable, with the skills needed to deliver end-to-end usable increments.",
+      "D": "Composed of specialists who only perform the specific role they were originally assigned to."
+    },
+    "answer": "C",
+    "explanation": "The Agile Practice Guide 4: agile teams are cross-functional and stable, so they can deliver complete value increments without external dependencies and so team learning compounds."
+  },
+  {
+    "id": 37,
+    "domain": "Process",
+    "difficulty": "Medium",
+    "question": "A stakeholder requests a scope addition. The PM's analysis shows the addition would push the project past its deadline. What should the PM do?",
+    "options": {
+      "A": "Present the trade-off — scope versus schedule and cost — and submit it through change control.",
+      "B": "Implement the scope change quietly without governance to maintain stakeholder goodwill on the project.",
+      "C": "Reject the change request without performing any analysis or holding any discussion about it.",
+      "D": "Add the work into the project without informing the team that the additional work is coming."
+    },
+    "answer": "A",
+    "explanation": "PMBOK Guide 8 (Scope and Schedule Performance Domains): scope changes are evaluated through integrated change control, exposing trade-offs. ECO Task 2 + Business Task 3 (change control)."
+  },
+  {
+    "id": 38,
+    "domain": "People",
+    "difficulty": "Hard",
+    "question": "Match each stakeholder situation (1-4) to the MOST appropriate response (A-D).",
+    "options": {
+      "1": "Stakeholder unaware of project",
+      "2": "Stakeholder resistant to project",
+      "3": "Stakeholder supportive but uninformed",
+      "4": "Stakeholder leading change with the team",
+      "A": "Provide structured updates and invite to key milestones",
+      "B": "Engage in dialog to understand concerns and address root causes",
+      "C": "Provide awareness-level communication of purpose and impact",
+      "D": "Leverage as a champion to engage others"
+    },
+    "answer": "1→C, 2→B, 3→A, 4→D",
+    "explanation": "PMBOK Guide 8 (Stakeholders Performance Domain) provides guidance on tailoring engagement based on stakeholder awareness and support levels."
+  },
+  {
+    "id": 39,
+    "domain": "Process",
+    "difficulty": "Hard",
+    "question": "A team has recently increased its agile practices. The project manager wants to explain team velocity. Which is the BEST definition of velocity?",
+    "options": {
+      "A": "The number of story points a team completes per iteration, averaged over several iterations.",
+      "B": "The total number of story points planned for the upcoming release.",
+      "C": "The number of hours worked by the team in a given iteration.",
+      "D": "The percentage of requirements completed against the total project scope."
+    },
+    "answer": "A",
+    "explanation": "The Agile Practice Guide defines velocity as the amount of work (often in story points) a team completes per iteration, averaged across iterations. It is a historical metric used for forecasting, not a target."
+  },
+  {
+    "id": 40,
+    "domain": "People",
+    "difficulty": "Medium",
+    "question": "A team member is consistently late to daily standups. What should the project manager / Scrum Master do FIRST?",
+    "options": {
+      "A": "Publicly call out the team member at the next standup.",
+      "B": "Have a private conversation to understand the reason.",
+      "C": "Remove the team member from the team.",
+      "D": "Change the standup time to accommodate the team member."
+    },
+    "answer": "B",
+    "explanation": "The Agile Practice Guide emphasizes servant leadership and addressing issues privately first. Understanding the root cause before taking action is the most appropriate first step."
+  },
+  {
+    "id": 41,
+    "domain": "Process",
+    "difficulty": "Medium",
+    "question": "A project manager is reviewing the project charter with a new stakeholder. What is the PRIMARY purpose of the project charter?",
+    "options": {
+      "A": "To replace the project management plan.",
+      "B": "To authorize the project manager to use organizational resources.",
+      "C": "To list all project risks in detail.",
+      "D": "To provide a detailed project schedule."
+    },
+    "answer": "B",
+    "explanation": "PMBOK Guide 8: The project charter formally authorizes the project and gives the project manager authority to apply organizational resources. It is the document that initiates the project."
+  },
+  {
+    "id": 42,
+    "domain": "People",
+    "difficulty": "Medium",
+    "question": "An agile team is struggling with technical debt. Which practice BEST helps manage technical debt?",
+    "options": {
+      "A": "Defer all refactoring to the end of the project.",
+      "B": "Allocate time for refactoring in each iteration.",
+      "C": "Ignore technical debt until it becomes a blocker.",
+      "D": "Require sign-off from the product owner for all refactoring."
+    },
+    "answer": "B",
+    "explanation": "The Agile Practice Guide recommends managing technical debt by allocating time for refactoring in each iteration. This prevents accumulation and maintains code quality."
+  },
+  {
+    "id": 43,
+    "domain": "Process",
+    "difficulty": "Hard",
+    "question": "A project manager is developing a risk management plan. Which of the following is NOT a typical risk response strategy for threats?",
+    "options": {
+      "A": "Avoid",
+      "B": "Transfer",
+      "C": "Exploit",
+      "D": "Mitigate"
+    },
+    "answer": "C",
+    "explanation": "PMBOK Guide 8 §2.7: 'Exploit' is a response strategy for opportunities (positive risks), not threats. The standard threat response strategies are Avoid, Transfer, Mitigate, and Accept."
+  },
+  {
+    "id": 44,
+    "domain": "Business Environment",
+    "difficulty": "Medium",
+    "question": "A project is being developed in a highly regulated industry. What is the BEST way to ensure compliance?",
+    "options": {
+      "A": "Engage legal and compliance teams throughout the project.",
+      "B": "Address compliance only during the final phase.",
+      "C": "Assign compliance responsibility to a junior team member.",
+      "D": "Use a checklist at the end of the project."
+    },
+    "answer": "A",
+    "explanation": "PMBOK Guide 8 (Business Environment) and ECO Task 2: compliance must be integrated throughout the project. Engaging compliance teams early and continuously is the most effective approach."
+  },
+  {
+    "id": 45,
+    "domain": "People",
+    "difficulty": "Medium",
+    "question": "Which of the following is a key characteristic of a high-performing team? (Choose 3)",
+    "options": {
+      "A": "Trust among team members.",
+      "B": "Clear roles and responsibilities.",
+      "C": "Regular conflict between members.",
+      "D": "Shared goals and objectives.",
+      "E": "Limited communication to avoid confusion."
+    },
+    "answer": "A, B, D",
+    "explanation": "PMBOK Guide 8 (Resources Performance Domain) and Agile Practice Guide identify trust, clear roles, and shared goals as characteristics of high-performing teams. Regular conflict and limited communication are not indicators of high performance."
+  },
+  {
+    "id": 46,
+    "domain": "Process",
+    "difficulty": "Medium",
+    "question": "A project manager is using a burn-up chart to track progress. What does the burn-up chart primarily show?",
+    "options": {
+      "A": "Work remaining vs. time.",
+      "B": "Work completed vs. total scope.",
+      "C": "Team velocity over time.",
+      "D": "Resource utilization."
+    },
+    "answer": "B",
+    "explanation": "The Agile Practice Guide: A burn-up chart shows work completed (progress upward) against the total scope (the top line). It is useful for visualizing scope changes and progress toward completion."
+  },
+  {
+    "id": 47,
+    "domain": "Business Environment",
+    "difficulty": "Hard",
+    "question": "A competitor has released a similar product at a lower price point. What is the MOST appropriate project manager action?",
+    "options": {
+      "A": "Immediately lower the project's price.",
+      "B": "Assess the impact on the project's business case.",
+      "C": "Ignore the competitor's release.",
+      "D": "Copy the competitor's features."
+    },
+    "answer": "B",
+    "explanation": "ECO Business Task 8 and PMBOK Guide 8 §3.4: external business environment changes should trigger a reassessment of the project's value proposition. Understanding the impact is the first step before making any decisions."
+  },
+  {
+    "id": 48,
+    "domain": "People",
+    "difficulty": "Medium",
+    "question": "Fill in the blanks: An effective agile communication setup combines _____ events (planning, review, retrospective) for shared decisions with _____ artifacts (task board, burn-down, working agreements) that are continuously visible.",
+    "options": {
+      "A": "synchronous; radiating",
+      "B": "asynchronous; private",
+      "C": "annual; closed",
+      "D": "scripted; static"
+    },
+    "answer": "A",
+    "explanation": "The Agile Practice Guide describes synchronous iteration events combined with continuously visible information radiators as the standard agile communication pattern. Private (B), annual (C), and scripted (D) cadences undercut transparency."
+  },
+  {
+    "id": 49,
+    "domain": "Business Environment",
+    "difficulty": "Medium",
+    "question": "A change request affecting the project's scope and schedule has just been approved by the change control board. A change request is approved. What is the project manager's next step?",
+    "options": {
+      "A": "Implement the change and update all affected artifacts - plan, baselines, risk register, communications.",
+      "B": "File the change approval document and continue executing the project against the old plan as before.",
+      "C": "Inform only the sponsor about the approved change, since they are the change's primary authorizer.",
+      "D": "Inform only the team about the approved change, since they are the ones who will implement it in accordance with the existing plan."
+    },
+    "answer": "A",
+    "explanation": "PMBOK Guide 8 and ECO Task 3 enabler 'Implement approved changes' and 'Update project documentation to reflect changes.' Approval without follow-through erodes plan integrity."
+  },
+  {
+    "id": 50,
+    "domain": "People",
+    "difficulty": "Medium",
+    "question": "An agile team has been together for six iterations and is delivering at a high standard. A new senior manager wants to introduce mandatory weekly status reports from each team member. The team objects. What should the project manager do?",
+    "options": {
+      "A": "Have each developer write the new status report on top of their development work.",
+      "B": "Refuse the request outright and let the team escalate the matter on its own in this organizational context.",
+      "C": "Explain how iteration events already provide transparency, and propose an alternative.",
+      "D": "Comply with the senior manager's request and require the additional weekly reports."
+    },
+    "answer": "C",
+    "explanation": "ECO Task 3 enabler 'Represent the voice of the team.' The Agile Practice Guide describes how iteration events provide built-in transparency; adding parallel reporting duplicates effort without new signal."
+  },
+  {
+    "id": 51,
+    "domain": "People",
+    "difficulty": "Medium",
+    "question": "A stakeholder register currently categorizes every party as either internal or external, but the project manager keeps running into surprises during engagement. Stakeholders are currently categorized as either internal or external. The PM realizes this dichotomy is hiding important differences. What additional categorizations are MOST useful?",
+    "options": {
+      "A": "Stop categorizing stakeholders entirely and treat all stakeholders on the project identically.",
+      "B": "Sort stakeholders alphabetically by name rather than by any analytical dimension.",
+      "C": "Categorize stakeholders by power, interest, influence, attitude, or proximity to the work.",
+      "D": "Add only one new category dimension — distance from the project's main office location."
+    },
+    "answer": "C",
+    "explanation": "ECO Task 5 enabler 'Categorize stakeholders.' PMBOK Guide 8 lists multiple useful dimensions including power, interest, influence, attitude, and proximity. Useful categorization drives tailored engagement."
+  },
+  {
+    "id": 52,
+    "domain": "Process",
+    "difficulty": "Medium",
+    "question": "A project is being terminated before completion due to a strategic decision. What closure activities still apply?",
+    "options": {
+      "A": "Only the contract close-out activity, since other closure activities are irrelevant to terminated projects.",
+      "B": "Only the project's resource release activity, since other closure activities are irrelevant in termination.",
+      "C": "Lessons learned, knowledge capture, contract close-out, resource release, and stakeholder communication, scaled.",
+      "D": "None of the standard closure activities apply, since the terminated project is simply abandoned to streamline the decision process."
+    },
+    "answer": "C",
+    "explanation": "PMBOK Guide 8 4.5.5: closure activities apply to terminated projects too; preserved knowledge and clean contract close-out protect the organization."
+  },
+  {
+    "id": 53,
+    "domain": "Process",
+    "difficulty": "Medium",
+    "question": "A new agile team is debating how strict their completion standard should be. An agile team's Definition of Done should:",
+    "options": {
+      "A": "Establish shared agreement on what 'complete' means for any increment, including quality criteria.",
+      "B": "Be set by the project manager unilaterally and communicated to the team at the start of the project.",
+      "C": "Apply only to documentation and not to the working software or other products produced.",
+      "D": "Be changed every iteration based on the goal of that particular iteration cycle on the project."
+    },
+    "answer": "A",
+    "explanation": "The Agile Practice Guide and Scrum Guide: the Definition of Done is a team-owned standard establishing what 'done' means, including quality. It is typically stable across iterations and applies to all increments."
+  },
+  {
+    "id": 54,
+    "domain": "Business Environment",
+    "difficulty": "Medium",
+    "question": "In your project, open change requests that are pending review and decision have been piling up. What is the MOST appropriate response?",
+    "options": {
+      "A": "Approve all pending change requests as a batch in order to swiftly clear the backlog of pending items.",
+      "B": "Reject all pending change requests as a batch in order to clear the backlog of pending items.",
+      "C": "Ignore the pile of pending change requests entirely until they expire on their own from age.",
+      "D": "Communicate status, accelerate decisions where possible, and address the bottleneck causing the backlog."
+    },
+    "answer": "D",
+    "explanation": "ECO Task 3 enabler 'Communicate the status of proposed changes' and root-cause analysis (governance bottleneck). Bulk decisions without analysis (A, B) misuse the process."
+  },
+  {
+    "id": 55,
+    "domain": "People",
+    "difficulty": "Medium",
+    "question": "An agile team that has been delivering predictably for five iterations has just raised in a retrospective that the project manager's recent additional check-ins on top of the daily standup feel like micromanagement. A team's velocity has been stable for several iterations. The team raises that they feel micromanaged by daily check-ins beyond the daily standup. What is the BEST response?",
+    "options": {
+      "A": "Increase oversight in the form of extra check-ins to ensure quality remains high.",
+      "B": "Replace the existing daily standup with a manager-led status reporting meeting.",
+      "C": "Reduce the additional check-ins and trust the team's inspect-and-adapt mechanisms.",
+      "D": "Schedule one-on-ones with each developer to verify individual daily progress while preserving the project's governance."
+    },
+    "answer": "C",
+    "explanation": "ECO Task 3 enabler 'Empower the team.' The Agile Practice Guide notes that existing iteration mechanics (daily standup, review, retrospective) provide inspection-and-adaptation; layering on additional oversight reduces autonomy without new signal."
+  },
+  {
+    "id": 56,
+    "domain": "Process",
+    "difficulty": "Medium",
+    "question": "PMBOK Guide 8 includes 'Embed Quality Into Processes and Deliverables' as a principle. Which behavior BEST reflects this?",
+    "options": {
+      "A": "Inspect the project's quality in at the very end of the project, after deliverables are produced.",
+      "B": "Design processes that prevent defects, build in checkpoints during execution, and use feedback to improve.",
+      "C": "Reduce the volume of project documentation to lower the overall cost of running the project while preserving the project's governance.",
+      "D": "Treat quality as a separate dedicated workstream that is isolated from the rest of the project team."
+    },
+    "answer": "B",
+    "explanation": "PMBOK Guide 8 §3.5: quality is embedded throughout, not inspected at the end. Prevention is cheaper than later detection."
+  },
+  {
+    "id": 57,
+    "domain": "Process",
+    "difficulty": "Hard",
+    "question": "Activity 1 in the network logic diagram has a duration of 20 days, activity 2 of 10 days, activity 3 of 5 days and activity 4 of 6 days. What is the minimum total duration between the milestones A and B?",
+    "options": {
+      "A": "36 days",
+      "B": "37 days",
+      "C": "39 days",
+      "D": "42 days"
+    },
+    "answer": "B",
+    "explanation": "The minimum duration equals the longest path through the network. Tracing the path: Activity 1 (20 days) → Activity 2 (10 days, finishes day 30) → Activity 3 must finish 2 days before Activity 2 (on day 28) → Activity 4 starts 3 days after Activity 3 finishes (day 31) and takes 6 days (completes day 37). Total: 20 + 10 - 2 + 3 + 6 = 37 days."
+  },
+  {
+    "id": 58,
+    "domain": "Business Environment",
+    "difficulty": "Medium",
+    "question": "A new manager is questioning the project manager about the leadership style they use on agile teams. Which is the BEST description of 'servant leadership' as applied to impediment removal?",
+    "options": {
+      "A": "The leader avoids exhibiting any leadership behaviors in order to maximize the team's autonomy.",
+      "B": "The leader removes the obstacles in the team's way so that the team can do its best work.",
+      "C": "The leader takes over and does the team's work themselves so that the team can focus elsewhere.",
+      "D": "The leader controls every individual team decision in order to ensure quality and consistency."
+    },
+    "answer": "B",
+    "explanation": "The Agile Practice Guide §4 and Scrum Guide: servant leaders create conditions for the team to succeed by clearing obstacles and protecting focus, not by doing the work or controlling it."
+  },
+  {
+    "id": 59,
+    "domain": "Business Environment",
+    "difficulty": "Hard",
+    "question": "Sustainability requirements are increasingly a compliance category. What does it mean to 'integrate sustainability' into a project?",
+    "options": {
+      "A": "Always choose the highest-cost project option, since this is assumed to be the most sustainable.",
+      "B": "Consider environmental, social, and economic impacts in decisions, design, processes, and outcomes.",
+      "C": "Always choose the lowest-cost project option, since this minimizes the project's overall resource use.",
+      "D": "Mention sustainability briefly in the project's charter and then proceed with the project unchanged."
+    },
+    "answer": "B",
+    "explanation": "PMBOK Guide § 3.7 'Integrate Sustainability Within All Project Areas' makes sustainability an integrated principle. The 2026 ECO lists sustainability across Tasks 1, 2, 5, and 7. Integration ≠ tokenism."
+  },
+  {
+    "id": 60,
+    "domain": "Process",
+    "difficulty": "Medium",
+    "question": "On an agile project, which artifact gives external stakeholders the BEST near-real-time view of progress without requiring custom reports?",
+    "options": {
+      "A": "Information radiators — task boards, burn-down/up charts, release plans — accessible to stakeholders.",
+      "B": "A monthly status PowerPoint document produced by the project manager for the steering committee.",
+      "C": "The project's risk register, which lists threats and opportunities along with their response plans.",
+      "D": "An end-of-project lessons-learned document covering successes, failures, and improvement areas in this organizational context."
+    },
+    "answer": "A",
+    "explanation": "The Agile Practice Guide §5 information radiators: continuous, low-overhead visibility designed for ambient consumption. PMBOK Guide 8: pull-style communication reduces reporting overhead."
+  },
+  {
+    "id": 61,
+    "domain": "Process",
+    "difficulty": "Hard",
+    "question": "You are managing a hybrid project: the hardware integration workstream follows a predictive plan with stage gates, while the firmware and mobile app teams work in two-week iterations. Three iterations in, the firmware team's defect rate is climbing, the hardware team has just passed its first gate review, and the sponsor is asking how you intend to keep improving quality across both workstreams for the rest of the project. What is the BEST approach to continuous improvement in this situation?",
+    "options": {
+      "A": "Throughout both workstreams, proactively identify opportunities to improve deliverables and workflows, use audits, inspections, and root-cause analysis to understand where quality is falling short, and adapt the way the work is done as findings emerge.",
+      "B": "Wait until the next hardware stage gate so that improvement actions for both workstreams can be reviewed together in a single governance forum, ensuring consistency and predictable decision-making across the project.",
+      "C": "Have the firmware team add a dedicated 'process improvement' user story to every iteration backlog so improvement work is tracked, estimated, and prioritized alongside feature work in the normal planning cycle.",
+      "D": "Commission an independent quality audit of both workstreams now to identify the root causes of the rising defect rate before any further improvement activity is undertaken across the project."
+    },
+    "answer": "A",
+    "explanation": "PMBOK Guide 8 §3.5 and Agile Practice Guide §5: continuous improvement combines audits, inspection (retrospectives, lessons learned) with improvements in deliverables and processes. ECO Business Task 6 is dedicated to continuous improvement."
+  },
+  {
+    "id": 62,
+    "domain": "Business Environment",
+    "difficulty": "Medium",
+    "question": "A team member uses the words 'risk' and 'issue' interchangeably when reporting status. What is the difference between a risk and an issue?",
+    "options": {
+      "A": "They are the same thing, with risk being the term used at the start and issue at the end of a project.",
+      "B": "An issue is always more serious than a risk in terms of its impact on the project's objectives.",
+      "C": "A risk is a potential future event; an issue is one that has already occurred and requires action.",
+      "D": "A risk is always more serious than an issue in terms of its impact on the project's objectives."
+    },
+    "answer": "C",
+    "explanation": "PMBOK Guide 8 §2.7 Risk Performance Domain: risk is uncertain future; issue is present reality. ECO Task 4 enabler 'Recognize when a risk becomes an issue.'"
+  },
+  {
+    "id": 63,
+    "domain": "Process",
+    "difficulty": "Medium",
+    "question": "An executive new to project management asks the project manager for a working definition before approving the charter. Which is the BEST definition of project scope on a predictive project?",
+    "options": {
+      "A": "Whatever amount of work the project team is able to deliver within the available project time.",
+      "B": "The work required to deliver the agreed product, service, or result with its specified features.",
+      "C": "All of the work the project's customer might possibly want from the project eventually over time.",
+      "D": "The same content as the product specifications document submitted by the customer's team."
+    },
+    "answer": "B",
+    "explanation": "PMBOK Guide 8 (Scope Performance Domain): project scope is the work required to deliver the agreed product/service/result with its specified features. It is bounded, not aspirational (A) or capacity-defined (C)."
+  },
+  {
+    "id": 64,
+    "domain": "Process",
+    "difficulty": "Medium",
+    "question": "What is the PRIMARY purpose of variance analysis in status evaluation?",
+    "options": {
+      "A": "To create additional project reports for governance bodies to consume during their meetings.",
+      "B": "To compare actual with baseline, identify the root causes of deviations, and inform corrective action.",
+      "C": "To replace the existing project baseline with a new one that reflects current performance for the duration of the engagement.",
+      "D": "To identify which team member or stakeholder should be held accountable for the project issues."
+    },
+    "answer": "B",
+    "explanation": "PMBOK Guide 8 §2.3 and §2.4: variance analysis exposes deviations and drives action. Blame-orientation (A) is an antipattern."
+  },
+  {
+    "id": 65,
+    "domain": "Process",
+    "difficulty": "Hard",
+    "question": "A project's projected financial variance is widening. The PM has communicated to the sponsor. What additional action is MOST important?",
+    "options": {
+      "A": "Stop financial reporting until the project's variance has closed back to within tolerable limits.",
+      "B": "Engage governance — propose mitigations, request guidance, and update the financial forecast.",
+      "C": "Reallocate funds from the contingency reserve without notification to the governance body.",
+      "D": "Reduce the team's morale by sharing the bad financial news only with senior project staff."
+    },
+    "answer": "B",
+    "explanation": "PMBOK Guide 8 (Finance Performance Domain) and ECO Task 6 enabler 'Monitor financial variations and work with the governance process.' Transparency and governance engagement are core; silent reallocation undermines control."
+  },
+  {
+    "id": 66,
+    "domain": "Process",
+    "difficulty": "Medium",
+    "question": "A junior project coordinator on a predictive infrastructure project asks why the team is investing time in building a WBS. A predictive project's WBS is being created. What is its PRIMARY purpose?",
+    "options": {
+      "A": "To list every team member's individual tasks for human resources and reporting purposes in line with current practice.",
+      "B": "To document the project's risks and identify the responsible owners for each one identified.",
+      "C": "To define the project's procurement strategy and identify the vendors that will be engaged.",
+      "D": "To decompose the total project scope into smaller, manageable components for execution and verification."
+    },
+    "answer": "D",
+    "explanation": "PMBOK Guide 8 (Scope Performance Domain): the WBS hierarchically decomposes total project scope into deliverables and work packages. ECO Task 2 enabler 'Break down scope.'"
+  },
+  {
+    "id": 67,
+    "domain": "Process",
+    "difficulty": "Hard",
+    "question": "A project manager is estimating effort for a complex hybrid project. Most work is well understood but some components have high uncertainty. Which approach is BEST?",
+    "options": {
+      "A": "Use precise estimates for known components and ranges or relative sizes for uncertain components.",
+      "B": "Defer all estimation activities until project execution begins and more information is gained.",
+      "C": "Assume all of the project's components carry equal estimation uncertainty for consistency as the most direct path forward.",
+      "D": "Provide single-point precise estimates throughout the project to avoid stakeholder confusion."
+    },
+    "answer": "A",
+    "explanation": "PMBOK Guide 8 (Schedule Performance Domain): estimating precision should match what is known. ECO Task 1 enabler 'Estimate work effort and resource requirements.' Mismatched precision either over- or undermines."
+  },
+  {
+    "id": 68,
+    "domain": "Business Environment",
+    "difficulty": "Medium",
+    "question": "Place these change-control steps in the correct order.",
+    "options": {
+      "A": "Receive the change request",
+      "B": "Analyze the impact on scope, schedule, cost, quality, risk",
+      "C": "Decide (approve / reject / defer) per governance authority",
+      "D": "Implement and update affected artifacts"
+    },
+    "answer": "A → B → C → D",
+    "explanation": "PMBOK Guide 8 and ECO Task 3: the standard sequence is intake → impact analysis → authorized decision → implementation with artifact updates. Skipping analysis (B) before decision (C) is a common antipattern."
+  },
+  {
+    "id": 69,
+    "domain": "Process",
+    "difficulty": "Medium",
+    "question": "A project manager is reviewing the rationale for baselining with a junior PM in the PMO. Why does PMBOK Guide 8 recommend baselining the schedule after stakeholder agreement?",
+    "options": {
+      "A": "To provide a reference for variance analysis so that actual performance can be compared meaningfully.",
+      "B": "To make the project's schedule immutable so that nobody on the project team can change it later.",
+      "C": "To prevent any future change to the schedule for the remainder of the project's duration.",
+      "D": "To satisfy external project auditors who need a baseline document for compliance purposes only."
+    },
+    "answer": "A",
+    "explanation": "PMBOK Guide 8 §2.3: baselines provide variance analysis reference. Baselines change through formal change control — they are not immutable but also not casually changed."
+  },
+  {
+    "id": 70,
+    "domain": "Business Environment",
+    "difficulty": "Medium",
+    "question": "A project manager is challenged on why they communicate about pending changes that haven't been decided yet. Why is it important to communicate the status of proposed changes to relevant stakeholders?",
+    "options": {
+      "A": "To delay execution of the change while waiting for stakeholder feedback on the proposed decision.",
+      "B": "Communication of pending change status is not necessary as long as the final decision is shared.",
+      "C": "To create additional project paperwork that documents the team's compliance with the process.",
+      "D": "To set realistic expectations, prevent surprises, and let affected stakeholders plan around it."
+    },
+    "answer": "D",
+    "explanation": "PMBOK Guide 8 (Stakeholders) and ECO Task 3 enabler 'Communicate the status of proposed changes.' Silence on pending changes undermines trust and downstream planning."
+  },
+  {
+    "id": 71,
+    "domain": "People",
+    "difficulty": "Medium",
+    "question": "In a hybrid program, the project manager wants to establish clear roles to reduce confusion. Which artifact is MOST useful?",
+    "options": {
+      "A": "A risk register documenting the threats and opportunities identified during planning.",
+      "B": "A RACI chart covering the project's key decisions, deliverables, and approval points.",
+      "C": "A detailed Gantt chart with each team member's name shown against every task.",
+      "D": "A burn-up chart showing scope completed against scope planned over project time."
+    },
+    "answer": "B",
+    "explanation": "ECO Task 3 enabler 'Establish clear roles and responsibilities.' PMBOK Guide 8 (Resources Performance Domain) describes the responsibility assignment matrix (e.g., RACI) as the standard tool for clarifying responsibility, accountability, consultation, and information."
+  },
+  {
+    "id": 72,
+    "domain": "People",
+    "difficulty": "Medium",
+    "question": "Midway through a predictive project, a previously-low-interest stakeholder group has become highly active and critical. What should the project manager do FIRST?",
+    "options": {
+      "A": "Reassess the engagement plan and update the stakeholder analysis for that group.",
+      "B": "Confront the stakeholder group directly about the change in their behavior and interest.",
+      "C": "Continue with the original engagement plan to avoid signaling concern about the change.",
+      "D": "Reduce communication frequency to that group to avoid feeding their criticism further."
+    },
+    "answer": "A",
+    "explanation": "PMBOK Guide 8 stresses that stakeholder analysis is iterative. Reassessment allows tailored response."
+  },
+  {
+    "id": 73,
+    "domain": "Process",
+    "difficulty": "Medium",
+    "question": "A project is approaching closure and the PMO has asked the project manager to host a lessons-learned session. Lessons learned at closure should focus on:",
+    "options": {
+      "A": "Identifying which individuals on the team should be held responsible for the project's main failures.",
+      "B": "Re-litigating the past project decisions that were made by the team during execution of the project.",
+      "C": "Only the project's successes, in order to maintain the team's morale at the end of the project.",
+      "D": "What worked, what did not, root causes, and recommendations to inform future projects and OPAs."
+    },
+    "answer": "D",
+    "explanation": "PMBOK Guide 8 §3.5 and §4.5.5: lessons learned focus on improving future work, capturing both successes and failures with root-cause analysis, not on blame. ECO Business Task 6 ('Continuous improvement') reinforces this."
+  },
+  {
+    "id": 74,
+    "domain": "Process",
+    "difficulty": "Hard",
+    "question": "An agile development team building an internal data platform has discovered that nobody on the team has direct experience with the team's chosen cloud platform's security model. Which is the BEST description of how agile teams handle skill gaps within the team?",
+    "options": {
+      "A": "Combine skill-building inside the team with selective external help while preserving team stability.",
+      "B": "Hire one external specialist per missing skill for the duration of the project on a contract basis.",
+      "C": "Defer all the work that needs the missing skill to a later release of the product or project for the duration of the engagement.",
+      "D": "Replace the entire team with another team that possesses the missing skill set in full from day one."
+    },
+    "answer": "A",
+    "explanation": "The Agile Practice Guide 4: cross-functional teams build skills internally through pairing/mentoring; external help is used selectively. Team stability is a known driver of agile productivity."
+  },
+  {
+    "id": 75,
+    "domain": "Process",
+    "difficulty": "Medium",
+    "question": "Contingency reserves on a project are used to:",
+    "options": {
+      "A": "To address identified risks that materialize, within the scope of the PM's documented authority.",
+      "B": "To cover the management team's unrelated cost overruns from other projects in the portfolio throughout the project's execution phase.",
+      "C": "To cover any unforeseen project change at the project manager's discretion without analysis.",
+      "D": "To replace the project's entire approved budget once it has been fully spent during execution."
+    },
+    "answer": "A",
+    "explanation": "PMBOK Guide 8 (Finance Performance Domain): contingency reserves are budgeted to address known (identified) risks. Management reserves cover unknown unknowns and typically require management authorization. ECO Task 6 enabler 'Manage financial reserves.'"
+  },
+  {
+    "id": 76,
+    "domain": "Process",
+    "difficulty": "Hard",
+    "question": "On an iteration-based agile project, the team estimates work using story points. The PMO requests a deterministic finish date for the next release. What is the MOST appropriate response?",
+    "options": {
+      "A": "Provide a forecast range from velocity trends, identifying the assumptions and confidence level.",
+      "B": "Refuse to discuss release dates with the PMO until empirical agile data accumulates further.",
+      "C": "Provide a single fixed delivery date with no caveats so that the PMO has a definite target.",
+      "D": "Convert all of the team's relative story-point estimates into person-hour estimates for reporting."
+    },
+    "answer": "A",
+    "explanation": "The Agile Practice Guide: forecasting in agile uses empirical data (velocity, throughput) to produce ranges with confidence bands, not false-precision single points. ECO Task 8 enablers include 'Estimate project tasks (story points)' and 'Analyze schedule variation.'"
+  },
+  {
+    "id": 77,
+    "domain": "Process",
+    "difficulty": "Hard",
+    "question": "Two months into execution of a regulated project, a regulatory body has issued new guidance that changes the bar for one of the project's main deliverables. A regulatory body has issued new compliance requirements affecting quality criteria for a project deliverable. What should the PM do FIRST?",
+    "options": {
+      "A": "Cancel the project on the grounds that the new compliance requirements have made it unworkable.",
+      "B": "Update the quality plan and acceptance criteria, then reassess the project's compliance posture.",
+      "C": "Ignore the new regulatory requirements until the next planned audit of the project's compliance.",
+      "D": "Pass the new compliance requirements to the team directly without analyzing the impact on the project."
+    },
+    "answer": "B",
+    "explanation": "PMBOK Guide 8 (quality and Business Environment) and ECO Task 7 enabler 'Help ensure regulatory compliance.' New compliance requirements must be integrated into quality criteria with appropriate impact analysis."
+  },
+  {
+    "id": 78,
+    "domain": "Business Environment",
+    "difficulty": "Medium",
+    "question": "What is the PRIMARY purpose of project governance?",
+    "options": {
+      "A": "To establish the structure, rules, procedures, and decision rights that align project with strategy.",
+      "B": "To replace the project management plan with a separate document focused on governance only.",
+      "C": "To slow down the project's decisions and increase the deliberation time on each significant choice.",
+      "D": "To create additional paperwork that demonstrates the project is being run in a disciplined way."
+    },
+    "answer": "A",
+    "explanation": "PMBOK Guide 8 (Governance Performance Domain): governance frames decision rights, escalation, and alignment with strategy. ECO Business Task 1 enablers cover structure, rules, procedures, reporting, ethics, and policies."
+  },
+  {
+    "id": 79,
+    "domain": "People",
+    "difficulty": "Medium",
+    "question": "A project manager is drafting the communication strategy for a predictive project. Which factor is MOST important to consider?",
+    "options": {
+      "A": "The communication tools currently owned and supported by the project management office.",
+      "B": "The information needs, cultural context, and preferred channels of each stakeholder group.",
+      "C": "The project manager's personal communication style and channel preferences for the project.",
+      "D": "The team's existing daily standup time and the daily coordination patterns already in use."
+    },
+    "answer": "B",
+    "explanation": "ECO Task 8 enabler 'Define a communication strategy.' PMBOK Guide 8 (Stakeholders Performance Domain) and 'Adopt a Holistic View' both center the audience: needs, context, and channels."
+  },
+  {
+    "id": 80,
+    "domain": "Business Environment",
+    "difficulty": "Hard",
+    "question": "A competitor has launched a similar product faster than your project's planned delivery. What should the project manager do FIRST?",
+    "options": {
+      "A": "Cancel the project immediately on the grounds that the competitor has already captured the available market.",
+      "B": "Match the competitor's product exactly so that the project's deliverable retains a competitive position.",
+      "C": "Assess the competitive impact on the project's value with stakeholders and consider strategy adjustments.",
+      "D": "Continue with the project as originally planned without performing any further analysis on the competitor."
+    },
+    "answer": "C",
+    "explanation": "PMBOK Guide 8 §3.4 'Focus on Value' and ECO Task 8 enabler 'Assess and prioritize the impact on project scope/backlog based on changes in the external business environment.' Value depends on the external context."
+  },
+  {
+    "id": 81,
+    "domain": "People",
+    "difficulty": "Hard",
+    "question": "A hybrid project has team members from three vendor organizations plus the customer. Conflict has arisen over which vendor's quality process to follow. What should the project manager do FIRST?",
+    "options": {
+      "A": "Average the three vendor processes together into a new combined quality standard.",
+      "B": "Analyze the context for the conflict, including each party's interests and constraints.",
+      "C": "Default to the customer's quality process to avoid contract and compliance risk.",
+      "D": "Document the disagreement in the project's risk register and continue the work."
+    },
+    "answer": "B",
+    "explanation": "ECO People Task 2 enabler 'Analyze the context for the conflict' and PMBOK Guide 8 emphasize understanding root causes before choosing a resolution strategy. Defaulting (C) ignores team expertise; averaging (A) often produces an unworkable hybrid; logging (D) is not action."
+  },
+  {
+    "id": 82,
+    "domain": "People",
+    "difficulty": "Medium",
+    "question": "A project's reporting requirements include monthly governance reports to the steering committee and biweekly iteration reviews for the development team. How should the PM handle the apparent duplication?",
+    "options": {
+      "A": "Eliminate governance reports as they are redundant with the existing iteration reviews given the stakeholders involved.",
+      "B": "Merge both reporting requirements together into a single weekly all-hands project report.",
+      "C": "Eliminate iteration reviews from the project to reduce overall reporting overhead burden.",
+      "D": "Maintain both — they serve different audiences with different decision needs and cadences."
+    },
+    "answer": "D",
+    "explanation": "PMBOK Guide 8 (Stakeholders Performance Domain): different audiences require different communication formats, frequencies, and granularity. Iteration reviews drive product decisions; governance reports drive portfolio-level decisions. ECO Task 8: 'Create reports aligned with sponsors and stakeholder expectations.'"
+  },
+  {
+    "id": 83,
+    "domain": "People",
+    "difficulty": "Medium",
+    "question": "Which of the following BEST promotes transparency on a hybrid project?",
+    "options": {
+      "A": "Restricting access to project plans to the project leadership team only, not the wider team.",
+      "B": "Share plans, progress, blockers, and risks at appropriate granularity with those who need them.",
+      "C": "Sharing only positive project news to maintain stakeholder confidence in the team's work.",
+      "D": "Producing a single comprehensive annual report containing everything that happened on the project."
+    },
+    "answer": "B",
+    "explanation": "PMBOK Guide 8 'Adopt a Holistic View' and Agile Practice Guide both treat transparency as a foundation for trust and good decision-making. Transparency means right information, right people, right cadence — not all information to all people."
+  },
+  {
+    "id": 84,
+    "domain": "Business Environment",
+    "difficulty": "Medium",
+    "question": "Continuing the same training session, the project manager moves on to opportunities. Common risk response strategies for a positive risk (opportunity) include:",
+    "options": {
+      "A": "Ignore, suppress, deny - the strategies used when an opportunity is too uncertain to manage actively.",
+      "B": "Exploit, share, enhance, accept - with escalate available for opportunities beyond project authority.",
+      "C": "Avoid, transfer, mitigate, accept - the strategies designed for negative risks and threats.",
+      "D": "Always exploit the opportunity immediately, regardless of its probability of actually occurring."
+    },
+    "answer": "B",
+    "explanation": "PMBOK Guide 8 §2.7: for opportunities, strategies are exploit, share, enhance, accept, with escalate for those outside project authority. (C) lists threat strategies."
+  },
+  {
+    "id": 85,
+    "domain": "People",
+    "difficulty": "Hard",
+    "question": "Eight months into a predictive infrastructure modernization, the project manager is hearing inconsistent priority calls from different parts of the team during scope-versus-schedule trade-offs. During execution of a predictive infrastructure project, team members are making conflicting trade-off decisions because they each interpret the project's priorities differently. Which is the MOST effective response?",
+    "options": {
+      "A": "Escalate to the sponsor for arbitration on each individual trade-off.",
+      "B": "Add a tie-breaker decision procedure to the change control plan.",
+      "C": "Restate the vision and success criteria, then verify shared understanding.",
+      "D": "Issue a written directive stating the priority order and require team sign-off."
+    },
+    "answer": "C",
+    "explanation": "ECO People Task 1 includes 'Promote the shared vision' and identifying root causes of vision misunderstanding. PMBOK Guide 8 'Be an Accountable Leader' calls for the PM to model and reinforce clarity."
+  },
+  {
+    "id": 86,
+    "domain": "Business Environment",
+    "difficulty": "Medium",
+    "question": "A high-impact risk has been identified for which probability of occurrence is also high. What is the MOST appropriate immediate action?",
+    "options": {
+      "A": "Wait for the identified risk to materialize and become an issue requiring direct team intervention to streamline the decision process.",
+      "B": "Accept the identified risk passively and proceed with the project's execution as originally planned.",
+      "C": "Remove the identified risk from the project's risk register so that the team can focus on other items.",
+      "D": "Develop and implement an appropriate response - avoid, mitigate, or transfer - and continue to monitor."
+    },
+    "answer": "D",
+    "explanation": "PMBOK Guide 8 §2.7: high probability + high impact threats demand active response. Passive acceptance (B) and removal (C) ignore project objectives; waiting (A) sacrifices early action value."
+  },
+  {
+    "id": 87,
+    "domain": "Process",
+    "difficulty": "Medium",
+    "question": "Before recommending a development approach, which factors should a project manager consider?",
+    "options": {
+      "A": "Only the executive sponsor's stated preference for predictive or adaptive delivery on the project.",
+      "B": "The project manager's personal preference for predictive or adaptive ways of working on a project in accordance with the existing plan.",
+      "C": "Only the most senior team member's prior experience with predictive or adaptive delivery approaches.",
+      "D": "Deliverable characteristics, project context - uncertainty, urgency, criticality - and organizational factors."
+    },
+    "answer": "D",
+    "explanation": "PMBOK Guide 8 §4.2.1: development approach selection considers product characteristics, project context (uncertainty, urgency, criticality), and organizational factors. Personal or sponsor preference alone is insufficient."
+  },
+  {
+    "id": 88,
+    "domain": "Business Environment",
+    "difficulty": "Medium",
+    "question": "A stakeholder informally asks the PM to add a feature. The PM thinks the feature is small and beneficial. What should the PM do?",
+    "options": {
+      "A": "Refuse the requested feature outright without performing any analysis or holding any discussion.",
+      "B": "Add the feature in secret so that the customer is pleased and the team's overhead is not increased.",
+      "C": "Apply change control — assess impact, route through the proper authority, document the decision.",
+      "D": "Add the feature directly without going through the project's established change control process."
+    },
+    "answer": "C",
+    "explanation": "PMBOK Guide 8 and ECO Business Task 3 enable 'Execute the change control process.' All changes — regardless of perceived size — go through change control to preserve integrity of plans, baselines, and stakeholder expectations."
+  },
+  {
+    "id": 89,
+    "domain": "People",
+    "difficulty": "Medium",
+    "question": "A stakeholder workshop produces a long list of expectations, some clearly outside the project's mandate. What should the project manager do?",
+    "options": {
+      "A": "Accept every expectation raised in the workshop to maintain stakeholder goodwill.",
+      "B": "Move all expectations raised during the workshop into the project risk register to keep the schedule predictable.",
+      "C": "Reject out-of-scope expectations on the spot without any further analysis or discussion.",
+      "D": "Discuss each, confirm scope, and document the others as out of scope so stakeholders are heard."
+    },
+    "answer": "D",
+    "explanation": "Explicit acknowledgment of out-of-scope items honors the stakeholder while protecting the project boundary. Accepting everything creates scope creep; silent rejection damages trust; moving to risk register misclassifies."
+  },
+  {
+    "id": 90,
+    "domain": "Business Environment",
+    "difficulty": "Medium",
+    "question": "An agile team's retrospectives generate the same action items iteration after iteration without resolution. What is the BEST corrective action?",
+    "options": {
+      "A": "Stop running team retrospectives, since the actions they generate are not being implemented anyway.",
+      "B": "Skip retrospectives until the team's backlog has been cleared of the existing work in progress.",
+      "C": "Investigate why actions are not being done, address root causes, and commit to a smaller action set.",
+      "D": "Replace the project team entirely with a new team that will be more disciplined about follow-through."
+    },
+    "answer": "C",
+    "explanation": "The Agile Practice Guide §5: retrospectives only drive improvement when actions are implemented. Repeating items signal a follow-through problem to be addressed at the system level."
+  },
+  {
+    "id": 91,
+    "domain": "Process",
+    "difficulty": "Medium",
+    "question": "Which of the following help embed quality into a project's processes? (Choose 3)",
+    "options": {
+      "A": "Clear acceptance criteria for each deliverable or work item.",
+      "B": "Built-in inspection points throughout execution, not only at the end.",
+      "C": "Treating quality as the QA team's sole responsibility.",
+      "D": "Continuous feedback loops with customers and end users.",
+      "E": "Reducing documentation indiscriminately to save time."
+    },
+    "answer": "A, B, D",
+    "explanation": "PMBOK Guide 8 §3.5: quality is embedded through acceptance criteria, built-in inspection, and feedback loops. Quality as one team's responsibility (C) is the antipattern of inspecting quality in; indiscriminate documentation cuts (E) risk losing traceability needed for quality."
+  },
+  {
+    "id": 92,
+    "domain": "Process",
+    "difficulty": "Hard",
+    "question": "An agile team is two weeks into a three-week sprint. The sprint was planned with 45 story points of work, and 26 story points have been completed so far. The Scrum Master is updating the burn-down chart, and a stakeholder asks for a linear-interpolation forecast of where the team will land at the end of the sprint. What does linear interpolation predict?",
+    "options": {
+      "A": "The team will complete all 45 story points exactly on schedule by the end of week three.",
+      "B": "The team will complete approximately 52 story points, exceeding the 45-point plan by about 7 points.",
+      "C": "The team will complete approximately 39 story points, finishing roughly 6 points short of the 45-point plan.",
+      "D": "The team will complete approximately 30 story points, finishing well behind the planned 45-point target."
+    },
+    "answer": "C",
+    "explanation": "Linear interpolation projects future progress at the same average rate as past progress. The team has completed 26 of 45 story points in 2 weeks, giving a velocity of 13 story points per week. Extrapolating over the remaining week adds another 13 points, projecting roughly 39 story points completed — a shortfall of about 6 points."
+  },
+  {
+    "id": 93,
+    "domain": "Process",
+    "difficulty": "Hard",
+    "question": "Which contracting approaches help align a vendor with a customer pursuing agile delivery? (Choose 3)",
+    "options": {
+      "A": "Capped time-and-materials with iteration-based reviews.",
+      "B": "Outcome-based contracts tied to value or business metrics.",
+      "C": "Firm-fixed-price for a fully locked detailed scope spanning 24 months.",
+      "D": "Master agreements with multiple SOWs sized per iteration or release.",
+      "E": "Fixed-price contracts with detailed scope defined upfront."
+    },
+    "answer": "A, B, D",
+    "explanation": "The Agile Practice Guide §5 and PMBOK Guide 8 (procurement) note that agile-friendly contracts emphasize outcomes, capacity, and governance over detailed scope locked in advance. Capped T&M with reviews (A), outcome-based (B), and master agreements with SOWs per iteration/release (D) support agility. Firm-fixed-price (C, E) locks scope."
+  },
+  {
+    "id": 94,
+    "domain": "Process",
+    "difficulty": "Medium",
+    "question": "An organization is starting a product development effort where requirements are expected to evolve significantly based on user feedback. Which development approach is MOST appropriate?",
+    "options": {
+      "A": "Predictive with a single delivery at the end after all the requirements have been satisfied.",
+      "B": "Adaptive, with frequent increments and built-in inspection points for stakeholder feedback.",
+      "C": "V-model with sequential verification of each phase as it is completed by the team.",
+      "D": "Waterfall delivery with detailed up-front specification before any development can begin."
+    },
+    "answer": "B",
+    "explanation": "PMBOK Guide 8 §4.2.2: adaptive approaches are appropriate when requirements are uncertain or evolving, and learning is needed before committing to scope. The Agile Practice Guide notes frequent increments allow course-correction."
+  },
+  {
+    "id": 95,
+    "domain": "People",
+    "difficulty": "Hard",
+    "question": "An agile team is being onboarded by an executive sponsor who has previously only run fixed-price predictive engagements and expects the same here. An agile team's stakeholders expect a fixed scope, fixed date, and fixed budget. How should the project manager respond?",
+    "options": {
+      "A": "Refuse to begin work on the project under any fixed-everything constraints from stakeholders.",
+      "B": "Accept all three of the fixed constraints and hope that things will work out for the team.",
+      "C": "Convert the project to a fully predictive approach without further stakeholder discussion.",
+      "D": "Explain the trade-offs, propose which dimension can flex, and document the agreed approach."
+    },
+    "answer": "D",
+    "explanation": "The Agile Practice Guide explicitly addresses fixed-everything expectations: with agile, scope is typically the variable that flexes around fixed time/cost (an 'agile triangle'). Negotiating which dimension flexes is the alignment step."
+  },
+  {
+    "id": 96,
+    "domain": "Process",
+    "difficulty": "Medium",
+    "question": "A team using a flow-based (Kanban) approach is monitoring throughput. What is throughput?",
+    "options": {
+      "A": "The total number of story points planned for completion in the upcoming iteration.",
+      "B": "The total number of meetings the team holds per iteration during its active flow.",
+      "C": "The total number of work items currently in progress in the team's active flow.",
+      "D": "The number of work items completed per unit of time across the team's flow of work."
+    },
+    "answer": "D",
+    "explanation": "The Agile Practice Guide §5 (flow-based agile): throughput measures completed items per unit time, complementing cycle time and work-in-progress as key flow metrics."
+  },
+  {
+    "id": 97,
+    "domain": "Business Environment",
+    "difficulty": "Medium",
+    "question": "A project manager assigned to a new business unit has noticed cultural differences from their previous unit that may affect how the team can work. Organizational culture affects a project's likelihood of success. Which is the MOST useful action by the project manager?",
+    "options": {
+      "A": "Force a culture change on the organization in order to make it more suitable for the project's needs.",
+      "B": "Assess how culture supports or hinders required ways of working, and tailor the approach accordingly.",
+      "C": "Ignore organizational culture entirely and focus only on the project's schedule and budget outcomes.",
+      "D": "Treat the prevailing organizational culture as fixed and unchangeable by the project manager's actions."
+    },
+    "answer": "B",
+    "explanation": "PMBOK Guide 8 §2.2 (EEFs) and ECO Task 7 enabler 'Assess organizational culture.' Tailoring acknowledges culture as a constraint and resource without trying to force change beyond the project's mandate."
+  },
+  {
+    "id": 98,
+    "domain": "Business Environment",
+    "difficulty": "Medium",
+    "question": "A risk in the project's risk register has now actually happened: a critical vendor has just confirmed a slippage that the team had been tracking as a probability. A previously-identified risk has materialized into an issue. What should the project manager do?",
+    "options": {
+      "A": "Remove the now-materialized risk from all of the project's artifacts to clean up the historical record.",
+      "B": "Move it to the issue log, execute the planned response, and learn from the event for risk improvement.",
+      "C": "Continue managing it as an active entry within the project's existing risk register going forward.",
+      "D": "Blame the project's team for the occurrence of the now-materialized risk on the project's outcomes."
+    },
+    "answer": "B",
+    "explanation": "PMBOK Guide 8 §2.7 and ECO Task 4/5: risks-turned-issues move into the issue log and trigger planned response. The risk register entry is closed; lessons feed forward."
+  },
+  {
+    "id": 99,
+    "domain": "Process",
+    "difficulty": "Medium",
+    "question": "A project deliverable will be transitioned to an operations team. What is the PM's responsibility at transition?",
+    "options": {
+      "A": "Defer the transition to operations indefinitely until the operations team feels fully ready for it.",
+      "B": "Insist that the operations team must accept whatever the project team delivers at the handover point.",
+      "C": "Hand over to the operations team immediately and then disappear without further involvement given the situation described.",
+      "D": "Validate readiness — documentation, training, support, acceptance, and any agreed temporary support period."
+    },
+    "answer": "D",
+    "explanation": "PMBOK Guide 8 §4.5.5 and ECO Task 10 enabler 'Validate readiness for transition.' A clean handover protects value realization in operations."
+  },
+  {
+    "id": 100,
+    "domain": "Business Environment",
+    "difficulty": "Medium",
+    "question": "A digital project handling sensitive customer information is being planned. A project must comply with data protection regulations. Compliance requirements should be:",
+    "options": {
+      "A": "Left entirely to the legal team without any involvement from the project team or project manager.",
+      "B": "Integrated into requirements, design, quality criteria, and testing throughout the project lifecycle.",
+      "C": "Documented in the project's risk register but not actually implemented during execution.",
+      "D": "Treated as a separate workstream addressed at the very end of the project as a final activity."
+    },
+    "answer": "B",
+    "explanation": "PMBOK Guide 8 (Business Environment): compliance is integrated throughout. ECO Task 2 enabler 'Use methods to support compliance.' Late or detached compliance creates expensive rework and regulatory risk."
+  },
+  {
+    "id": 101,
+    "domain": "Business Environment",
+    "difficulty": "Medium",
+    "question": "Which of the following are appropriate ways to address an impediment that is blocking team progress? (Choose 3)",
+    "options": {
+      "A": "Directly resolve issues within the project manager's authority.",
+      "B": "Escalate issues beyond the project manager's authority with context and options.",
+      "C": "Suppress mention of the impediment to avoid alarming stakeholders.",
+      "D": "Engage relevant stakeholders to collaborate on resolution.",
+      "E": "Penalize the team member who raised the impediment."
+    },
+    "answer": "A, B, D",
+    "explanation": "ECO Task 4: resolve within authority (A), escalate beyond (B), collaborate (D). Suppression (C) hides risk; penalizing the messenger (E) destroys psychological safety and future signal."
+  },
+  {
+    "id": 102,
+    "domain": "Process",
+    "difficulty": "Medium",
+    "question": "How is funding typically structured for adaptive (agile) delivery?",
+    "options": {
+      "A": "The project is funded only after the product is complete and the value has been demonstrated in this organizational context.",
+      "B": "Project funding is not used in agile delivery; teams are funded as ongoing capability instead.",
+      "C": "Often funded in tranches tied to value delivery or release cycles, with governance review points.",
+      "D": "A single large up-front funding allocation that is locked for the entire duration of the project."
+    },
+    "answer": "C",
+    "explanation": "The Agile Practice Guide and PMBOK Guide 8 §2.4 describe incremental funding aligned with the value flow: cohorts of funding tied to releases and stage-gates allow re-prioritization or stop decisions based on demonstrated value."
+  },
+  {
+    "id": 103,
+    "domain": "Business Environment",
+    "difficulty": "Hard",
+    "question": "In a software company a large number of simultaneously performed projects utilize the same groups of human and other resources from a corporate resource directory and support the organization's strategic objectives. What is the term commonly used for this grouping of multiple projects?",
+    "options": {
+      "A": "Strategic plan",
+      "B": "Portfolio",
+      "C": "Project",
+      "D": "Program"
+    },
+    "answer": "B",
+    "explanation": "A portfolio is a collection of projects, programs, subsidiary portfolios, and operations managed as a group to achieve strategic objectives. The scenario captures the two defining characteristics: multiple components grouped together and alignment to organizational strategy."
+  },
+  {
+    "id": 104,
+    "domain": "Process",
+    "difficulty": "Medium",
+    "question": "Several stakeholders new to agile have asked the project manager to explain a core concept. What is meant by 'incremental delivery'?",
+    "options": {
+      "A": "Reducing the size of the project's team incrementally over each month of the project's duration.",
+      "B": "Splitting one large planned delivery into several smaller deliveries that all happen on the same day.",
+      "C": "Delivering small usable portions of value frequently so stakeholders use them and provide feedback.",
+      "D": "Splitting the project's design phase into multiple sequential parts before construction begins."
+    },
+    "answer": "C",
+    "explanation": "The Agile Practice Guide §3: incremental delivery means delivering usable portions of the product so value accrues earlier and feedback informs subsequent increments."
+  },
+  {
+    "id": 105,
+    "domain": "Business Environment",
+    "difficulty": "Hard",
+    "question": "An agile team is delivering in a regulated industry. How can the team maintain compliance without sacrificing agility?",
+    "options": {
+      "A": "Outsource all of the project's compliance activities to external vendors specializing in compliance.",
+      "B": "Drop the agile delivery approach entirely and use a fully predictive approach to manage compliance.",
+      "C": "Skip the compliance activities until the end of the project to avoid slowing down development.",
+      "D": "Build compliance into the DoD, automate checks where possible, and engage compliance stakeholders early."
+    },
+    "answer": "D",
+    "explanation": "The Agile Practice Guide: regulated agile environments embed compliance into DoD, automate verification, and treat compliance partners as collaborative stakeholders. Late or external compliance creates rework cycles."
+  },
+  {
+    "id": 106,
+    "domain": "Process",
+    "difficulty": "Medium",
+    "question": "When designing a project's metrics dashboard, the project manager debates which indicators to include. Which characteristic distinguishes leading from lagging indicators?",
+    "options": {
+      "A": "Leading indicators describe past project performance; lagging indicators describe future state.",
+      "B": "Leading indicators are always quantitative; lagging indicators are always qualitative narratives.",
+      "C": "Leading and lagging indicators are synonyms in project management and may be used interchangeably.",
+      "D": "Leading indicators predict future outcomes; lagging indicators measure outcomes already realized."
+    },
+    "answer": "D",
+    "explanation": "PMBOK Guide 8: leading indicators (e.g., defect-find rate, team morale) predict outcomes; lagging indicators (e.g., final defect rate, customer satisfaction post-release) confirm them. Both have a place; only-lagging is too late for course correction."
+  },
+  {
+    "id": 107,
+    "domain": "Process",
+    "difficulty": "Medium",
+    "question": "A project manager is preparing a financial reporting cadence. Which factor BEST drives the appropriate cadence?",
+    "options": {
+      "A": "Annual is always the correct financial reporting cadence regardless of the project's context.",
+      "B": "Monthly is always the correct financial reporting cadence regardless of the project's context.",
+      "C": "The project manager's personal preference for how often to produce financial project reports.",
+      "D": "The governance body's decision-making needs and the rate of financial change on the project."
+    },
+    "answer": "D",
+    "explanation": "PMBOK Guide 8 (Finance Performance Domain): financial reporting cadence is driven by decision needs and rate of change. ECO Task 6 enabler 'Plan financial reporting.'"
+  },
+  {
+    "id": 108,
+    "domain": "Process",
+    "difficulty": "Hard",
+    "question": "Which of the following are characteristics of progressive elaboration in agile planning? (Choose 3)",
+    "options": {
+      "A": "High-level plan covers the entire horizon.",
+      "B": "Detailed plans cover only the near term.",
+      "C": "All planning is completed up front before execution.",
+      "D": "Plans are revised based on learning from completed increments.",
+      "E": "Planning ceases once execution begins."
+    },
+    "answer": "A, B, D",
+    "explanation": "The Agile Practice Guide: progressive elaboration combines a coarse-grained long-range view with fine-grained near-term planning, refined by learning. Up-front-only (C) and stop-planning (E) are antipatterns."
+  },
+  {
+    "id": 109,
+    "domain": "Business Environment",
+    "difficulty": "Medium",
+    "question": "An impediment is outside the project team's authority to resolve. What should the project manager do?",
+    "options": {
+      "A": "Hide the impediment from stakeholders so as not to alarm them about the progress of the project.",
+      "B": "Escalate to the appropriate authority with the relevant context, options, and a recommended action.",
+      "C": "Blame the project team for not having been able to resolve the impediment on their own authority.",
+      "D": "Wait passively until the impediment resolves itself through the actions of other people in the organization."
+    },
+    "answer": "B",
+    "explanation": "ECO Task 4 and PMBOK Guide 8 (Governance): impediments beyond team authority require escalation with sufficient context for the decision-maker."
+  },
+  {
+    "id": 110,
+    "domain": "People",
+    "difficulty": "Hard",
+    "question": "An agile team's last three reviews have left the product owner uneasy: each demonstrated feature is acceptable in isolation, but the product as a whole is not gelling. An agile team consistently builds features that delight individual stakeholders but together do not form a coherent product. What is the MOST likely root cause?",
+    "options": {
+      "A": "Missing or unclear product vision that links the individual backlog items together.",
+      "B": "Too few stakeholders and team members attending the daily standup coordination event.",
+      "C": "Insufficient team velocity to complete the planned user stories in each iteration.",
+      "D": "An inadequate Definition of Done that allows incomplete increments to be accepted."
+    },
+    "answer": "A",
+    "explanation": "The Agile Practice Guide notes that vision provides the thread connecting backlog items; without it, increments may not cohere into a usable product. Velocity (A), attendance (C), and DoD (D) address other concerns but not coherence of outcome."
+  },
+  {
+    "id": 111,
+    "domain": "Business Environment",
+    "difficulty": "Medium",
+    "question": "Mid-iteration, a stakeholder requests adding a new item to the current iteration. The team has already committed to its iteration goal. What should the project manager / Scrum Master do?",
+    "options": {
+      "A": "Force the newly requested item into the current iteration to satisfy the requesting stakeholder.",
+      "B": "Add the newly requested item to the iteration silently without informing the rest of the team.",
+      "C": "Help the stakeholder, PO, and team evaluate it — defer by default, or swap an item out if urgent.",
+      "D": "Reject the stakeholder's request without any discussion of its urgency, value, or business impact."
+    },
+    "answer": "C",
+    "explanation": "The Agile Practice Guide and Scrum Guide: the team protects the iteration goal; new urgent work, when admitted, displaces other work — there is no free addition. The default is to handle requests at the next planning event."
+  },
+  {
+    "id": 112,
+    "domain": "Process",
+    "difficulty": "Medium",
+    "question": "On a predictive project, when is value typically realized?",
+    "options": {
+      "A": "Only during the project's planning phase, before any execution work begins on the project.",
+      "B": "Largely after the final deliverable transitions to operations and the benefits begin to accrue.",
+      "C": "Continuously throughout the project's execution phase as the project's deliverables are produced.",
+      "D": "Never; predictive projects do not produce value because their requirements are fixed in advance."
+    },
+    "answer": "B",
+    "explanation": "PMBOK Guide 8 §2.1.2 and §3.4: in predictive delivery, the bulk of value usually accrues after transition, even though some value may be realized through interim deliverables. The benefit realization typically extends past project closure."
+  },
+  {
+    "id": 113,
+    "domain": "People",
+    "difficulty": "Hard",
+    "question": "A hybrid program kicked off 18 months ago to develop a new financial product is now mid-delivery. Market conditions and a recent regulatory ruling have changed what stakeholders expect from the final outcome. A hybrid project's vision statement was crafted 18 months ago. Market conditions have shifted and a regulator has issued new guidance affecting the deliverable. What should the project manager do?",
+    "options": {
+      "A": "Replace the project vision with the regulator's compliance requirement language.",
+      "B": "Add an addendum to the project charter listing the newly imposed constraints.",
+      "C": "Keep the vision unchanged to preserve the integrity of the project baseline.",
+      "D": "Revisit the vision with stakeholders and adjust if the change warrants it."
+    },
+    "answer": "D",
+    "explanation": "ECO Task 1 enabler 'Keep the vision current' and PMBOK Guide 8 'Focus on Value' both treat value drivers as dynamic."
+  },
+  {
+    "id": 114,
+    "domain": "People",
+    "difficulty": "Medium",
+    "question": "An agile team includes members from four different countries and ranges across two decades of professional experience. An agile team has highly varied experiences and cultural backgrounds. How can the leader BEST leverage this diversity?",
+    "options": {
+      "A": "Limit retrospective discussion topics to technical issues only, excluding interpersonal ones.",
+      "B": "Standardize all team communication to a single cultural style to avoid misunderstandings.",
+      "C": "Group team members by their cultural background to reduce inter-group friction.",
+      "D": "Encourage practices that surface differing perspectives in planning and retrospectives."
+    },
+    "answer": "D",
+    "explanation": "ECO Task 3 enabler 'Support the team's varied experiences, skills, and perspectives.' The Agile Practice Guide and PMBOK Guide 8 both highlight that diverse teams produce better outcomes when differences are actively surfaced."
+  },
+  {
+    "id": 115,
+    "domain": "Process",
+    "difficulty": "Medium",
+    "question": "A team plans to release every two iterations. A new opportunity arises to release a single high-value feature after just one iteration. What should the PO and team consider?",
+    "options": {
+      "A": "Assess whether the feature is independently valuable and releasable; if so, release it sooner.",
+      "B": "Refuse on principle, since releases must always strictly follow the established release schedule.",
+      "C": "Hold the feature back until the originally scheduled release date in order to maintain consistency.",
+      "D": "Release everything currently in the iteration even if some of the items are not actually ready."
+    },
+    "answer": "A",
+    "explanation": "The Agile Practice Guide: release cadence should serve value delivery, not vice versa. ECO Task 3 enabler 'Assess opportunities to deliver value incrementally.' Adherence to a release schedule that delays value is a process antipattern."
+  },
+  {
+    "id": 116,
+    "domain": "Process",
+    "difficulty": "Medium",
+    "question": "What is the role of acceptance criteria in agile work items?",
+    "options": {
+      "A": "Optional informal notes that the team may use or ignore depending on their preference each iteration.",
+      "B": "Internal team-only checklists that are intentionally not shared with the product owner.",
+      "C": "A replacement for the team's Definition of Done that supersedes it during iteration execution.",
+      "D": "Conditions of satisfaction that define when a work item is complete and acceptable to the PO."
+    },
+    "answer": "D",
+    "explanation": "The Agile Practice Guide: acceptance criteria are explicit, testable conditions that scope each item. They complement (not replace) the Definition of Done."
+  },
+  {
+    "id": 117,
+    "domain": "People",
+    "difficulty": "Medium",
+    "question": "Which of the following help foster an environment for knowledge transfer? (Choose 3)",
+    "options": {
+      "A": "Pair work and rotation across team areas.",
+      "B": "A psychologically safe culture where people share what they don't know.",
+      "C": "A policy that only senior staff may document knowledge.",
+      "D": "Visible, searchable team artifacts that everyone can access.",
+      "E": "Restricting cross-team communication to formal channels only."
+    },
+    "answer": "A, B, D",
+    "explanation": "ECO Task 7 enabler 'Foster an environment for knowledge transfer.' Pairing/rotation (A), psychological safety (B), and accessible artifacts (D) support both tacit and explicit transfer. Restricting documentation (C) or communication (E) defeats the purpose."
+  },
+  {
+    "id": 118,
+    "domain": "Process",
+    "difficulty": "Hard",
+    "question": "During contract negotiation for an agile-led product development engagement, the customer hands over a one-page brief that fixes scope, date, and budget. An agile team has been asked to commit to a fixed scope, fixed date, and fixed budget for a 12-month delivery. What is the project manager's MOST appropriate first response?",
+    "options": {
+      "A": "Convert the project to a fully predictive approach without further discussion of the constraints.",
+      "B": "Accept all three of the fixed constraints unchanged in order to secure the proposed contract.",
+      "C": "Decline the work entirely on the grounds that fixed-everything is incompatible with agile.",
+      "D": "Recommend a strategy where one dimension flexes via prioritization while time and cost are fixed."
+    },
+    "answer": "D",
+    "explanation": "The Agile Practice Guide: with adaptive delivery, scope is typically the variable that flexes via continuous prioritization. Negotiating which dimension flexes is part of recommending an execution strategy (ECO Task 1 enabler)."
+  },
+  {
+    "id": 119,
+    "domain": "Business Environment",
+    "difficulty": "Medium",
+    "question": "Which BEST describes the purpose of qualitative risk analysis?",
+    "options": {
+      "A": "To rank risks by probability and impact so the team can focus response effort where it matters most.",
+      "B": "To remove low-priority risks from the project's risk register so that the team can focus elsewhere.",
+      "C": "To produce precise numerical risk projections that drive the project's specific financial reserve sizing.",
+      "D": "To replace the team's quantitative risk analysis entirely with a simpler qualitative judgment."
+    },
+    "answer": "A",
+    "explanation": "PMBOK Guide 8 §2.7: qualitative analysis prioritizes risks for further attention or response. Quantitative analysis (when warranted) follows. ECO Task 5 enabler 'Analyze risks.'"
+  },
+  {
+    "id": 120,
+    "domain": "Process",
+    "difficulty": "Hard",
+    "question": "Sustainability has been added as a critical information requirement on a project. What does this MOST likely mean for the integrated plan?",
+    "options": {
+      "A": "Criteria are reflected in scope, quality, procurement, risk, and reporting plans as appropriate.",
+      "B": "Sustainability concerns are documented in the charter but are not factored into project decisions.",
+      "C": "A separate dedicated sustainability project is launched to handle the sustainability requirements alone.",
+      "D": "The project's scope is reduced from its original definition to lower its environmental impact."
+    },
+    "answer": "A",
+    "explanation": "PMBOK Guide 8 introduces 'Integrate Sustainability Within All Project Areas' as one of six principles. ECO Task 1 lists sustainability as a critical information requirement and treats it as an integrated concern, not a side document."
+  },
+  {
+    "id": 121,
+    "domain": "Business Environment",
+    "difficulty": "Hard",
+    "question": "Generative AI tools are rapidly evolving and could affect the project's deliverable. What is the MOST appropriate stance for the project manager?",
+    "options": {
+      "A": "Avoid all AI tools regardless of their potential value to the project or to its end-user beneficiaries.",
+      "B": "Monitor relevant changes; adapt scope, backlog, and approach when warranted by validated impact.",
+      "C": "Adopt every new technology tool that appears in the market in order to stay competitive on the project.",
+      "D": "Assume that the technology landscape will remain stable for the entire duration of the project."
+    },
+    "answer": "B",
+    "explanation": "The 2026 ECO explicitly lists AI as a trend to consider. PMBOK Guide 8 (Business Environment) and ECO Task 8 enabler 'Survey changes to the external business environment.' Validated impact (not hype) drives adoption."
+  },
+  {
+    "id": 122,
+    "domain": "Process",
+    "difficulty": "Hard",
+    "question": "A team is debating the order of two backlog items: a small item with quick wins for users, or a large item with substantial long-term value. How should the product owner decide?",
+    "options": {
+      "A": "Order by value-to-effort, considering urgency, dependencies, risk, and strategic alignment with input.",
+      "B": "Always work on small items first, regardless of their value, to maintain momentum on the project.",
+      "C": "Let the team vote on the order of backlog items at the start of each iteration cycle.",
+      "D": "Do them strictly in the order in which they were originally entered into the product backlog."
+    },
+    "answer": "A",
+    "explanation": "The Agile Practice Guide: ordering decisions weigh value, urgency, risk, dependencies, and learning. ECO Task 3 enabler 'Prioritize work based on value and stakeholder feedback.'"
+  },
+  {
+    "id": 123,
+    "domain": "Process",
+    "difficulty": "Medium",
+    "question": "Which is a strong negotiation principle for a project manager entering vendor negotiations?",
+    "options": {
+      "A": "Prepare by understanding interests, BATNAs, and decision criteria, aiming for a workable agreement.",
+      "B": "Avoid documenting the agreed outcomes of any negotiation until after the parties have signed.",
+      "C": "Open the negotiation with an extreme demand and then concede slowly during the negotiation.",
+      "D": "Refuse to discuss the other party's interests so as not to compromise the project's position."
+    },
+    "answer": "A",
+    "explanation": "PMBOK Guide 8 (procurement / Stakeholders): interest-based negotiation with prepared alternatives (BATNA) generally produces durable agreements. ECO Task 5 enabler 'Determine a negotiation strategy.'"
+  },
+  {
+    "id": 124,
+    "domain": "Process",
+    "difficulty": "Medium",
+    "question": "An agile team's product backlog has grown to over 800 items, many old and no longer relevant. What is the BEST corrective action?",
+    "options": {
+      "A": "Archive the entire existing product backlog and start a completely new backlog from scratch.",
+      "B": "Refine - remove or close stale items, reorder by current value, prepare the top items for upcoming iterations.",
+      "C": "Leave all eight hundred items in place so that no work item is ever lost from the project record.",
+      "D": "Have only the product owner work on refining the backlog without any input from the team as a standard precaution, as a baseline expectation."
+    },
+    "answer": "B",
+    "explanation": "The Agile Practice Guide: backlog refinement is a continuous activity to keep the backlog small, ordered, and ready. An unrefined backlog hides current priorities and wastes refinement effort on stale items."
+  },
+  {
+    "id": 125,
+    "domain": "People",
+    "difficulty": "Medium",
+    "question": "An internal customer initially specified detailed feature requirements but after seeing two increments wants substantially different functionality. How should the project manager respond?",
+    "options": {
+      "A": "Treat the change as expected feedback and help the PO re-order the backlog accordingly.",
+      "B": "Refuse the change because the original requirements have already been formally specified.",
+      "C": "Pause the project entirely until all requirements can be formally re-baselined together.",
+      "D": "Demand the customer commit in writing to no further changes after this point in the project."
+    },
+    "answer": "A",
+    "explanation": "The Agile Practice Guide: incremental delivery is intended to surface 'hidden or misunderstood requirements'; learning is a feature. The product owner reorders the backlog accordingly. Refusal, demands, and pauses all push against the purpose of iterative delivery."
+  },
+  {
+    "id": 126,
+    "domain": "Process",
+    "difficulty": "Medium",
+    "question": "A new quality lead on the project asks the project manager to clarify the two terms they hear used loosely in meetings. What is the PRIMARY difference between quality assurance and quality control?",
+    "options": {
+      "A": "They are the same activity, with QA being the term used in regulated industries and QC elsewhere.",
+      "B": "QA is always automated using tooling, while QC is always performed manually by inspection staff.",
+      "C": "Quality control happens before quality assurance in the standard order of quality activities.",
+      "D": "QA focuses on the processes producing deliverables; QC inspects the deliverables themselves."
+    },
+    "answer": "D",
+    "explanation": "PMBOK Guide 8 (quality concepts): QA evaluates whether the right processes are being followed (process-focused); QC measures actual deliverable conformance (product-focused). Both are needed."
+  },
+  {
+    "id": 127,
+    "domain": "People",
+    "difficulty": "Medium",
+    "question": "Which of the following are appropriate elements of a healthy conflict-management environment on an agile team? (Choose 3)",
+    "options": {
+      "A": "Team-owned working agreements that the team itself can update.",
+      "B": "A norm that disagreement is surfaced early rather than suppressed.",
+      "C": "The Scrum Master making technical decisions to prevent disputes.",
+      "D": "Psychological safety where dissent does not carry personal cost.",
+      "E": "A rule that all conflicts must be escalated to management."
+    },
+    "answer": "A, B, D",
+    "explanation": "The Agile Practice Guide emphasizes team self-management, early conflict surfacing, and psychological safety. The Scrum Master is a servant leader, not a technical decision-maker (C). Mandatory escalation (E) prevents teams from owning their own dynamics."
+  },
+  {
+    "id": 128,
+    "domain": "People",
+    "difficulty": "Medium",
+    "question": "A project manager moving from predictive to agile delivery is unsure how their leadership style should change. Which description BEST fits leadership of a self-managing agile team?",
+    "options": {
+      "A": "Approving each technical decision before the team is permitted to act on it.",
+      "B": "Serving the team - removing impediments, coaching, and enabling self-management.",
+      "C": "Acting as the single point of communication with all external project stakeholders.",
+      "D": "Directing tasks and tracking each team member's hourly work for compliance."
+    },
+    "answer": "B",
+    "explanation": "The Agile Practice Guide explicitly characterizes agile leadership as servant leadership: removing impediments, coaching, and enabling self-management. Directing (A), gating decisions (C), and gatekeeping communication (D) all undermine self-management."
+  },
+  {
+    "id": 129,
+    "domain": "Business Environment",
+    "difficulty": "Medium",
+    "question": "An impediment log has grown long and items are sitting open for weeks. What is the BEST corrective action?",
+    "options": {
+      "A": "Stop tracking impediments on the grounds that the existing log is no longer adding value to the team.",
+      "B": "Make the impediment log private to the Scrum Master, since it is the SM's responsibility to act.",
+      "C": "Close all the impediment items from the log as 'old' without resolving the actual underlying issues.",
+      "D": "Review the log, prioritize, assign clear owners, set timeboxes, and escalate items that are stuck."
+    },
+    "answer": "D",
+    "explanation": "ECO Task 4 enabler 'Manage impediments effectively.' An impediment log only adds value if items are actively managed. Review, prioritize, assign ownership, and escalate when necessary."
+  },
+  {
+    "id": 130,
+    "domain": "People",
+    "difficulty": "Hard",
+    "question": "Stakeholder analysis on a new product development effort has surfaced a national regulator who could reshape the product but who shows no current interest in the work. A stakeholder analysis identifies a regulator with high power and currently low interest. Which engagement strategy is MOST appropriate?",
+    "options": {
+      "A": "Ignore the regulator until they initiate contact with the project team themselves.",
+      "B": "Manage the regulator closely with constant project updates and frequent meetings.",
+      "C": "Keep informed at an appropriate level, ready to escalate if their interest rises.",
+      "D": "Treat the regulator as if both their power and current interest level were high."
+    },
+    "answer": "C",
+    "explanation": "PMBOK Guide 8 (Stakeholders Performance Domain) describes the power/interest grid: high power / low interest stakeholders should be kept satisfied with appropriate information. Constant updates (B) waste effort; ignoring (A) risks late escalation; over-engaging (D) misallocates attention."
+  },
+  {
+    "id": 131,
+    "domain": "Business Environment",
+    "difficulty": "Medium",
+    "question": "A program manager is being asked whether the project should defer improvement work until closure to avoid distraction during execution. A predictive project's process improvement opportunities should be:",
+    "options": {
+      "A": "Avoided during the project to preserve consistency with the originally approved execution plan.",
+      "B": "Identified and applied throughout execution as well as at phase ends and at project closure.",
+      "C": "Reserved for the organization's next project, when the team can apply what it has learned earlier.",
+      "D": "Reserved for the project's closure phase, when the team has time to reflect on what to improve."
+    },
+    "answer": "B",
+    "explanation": "PMBOK Guide 8 3.5 and ECO Task 6: continuous improvement applies throughout, not only at closure. Improvements caught mid-project benefit the current project."
+  },
+  {
+    "id": 132,
+    "domain": "Process",
+    "difficulty": "Medium",
+    "question": "A project manager new to the organization is drafting the resource section of the project plan. A project's resource plan should include which of the following?",
+    "options": {
+      "A": "Both human and physical resources, with quantity, type, timing, and source documented for each.",
+      "B": "Only the physical resources - equipment, materials, facilities - required for project execution.",
+      "C": "Only the human resources required by the project across all of its planned phases and activities.",
+      "D": "Only contracted vendor resources brought in from outside the performing project organization."
+    },
+    "answer": "A",
+    "explanation": "PMBOK Guide 8 (Resources Performance Domain) covers both human and physical resources, addressing quantity, type, timing, and source as the basis for acquisition and management."
+  },
+  {
+    "id": 133,
+    "domain": "Business Environment",
+    "difficulty": "Hard",
+    "question": "Geopolitical instability affects a key supplier in a predictive project. The project manager should:",
+    "options": {
+      "A": "Assume the supplier will continue to deliver as planned despite the geopolitical events affecting them.",
+      "B": "Hide the geopolitical situation from stakeholders to avoid causing them any unnecessary worry about it.",
+      "C": "Cancel the project on the grounds that the geopolitical instability has made the supply chain unworkable.",
+      "D": "Reassess supply risk, identify alternative sources or strategies, and update the risk register and plan."
+    },
+    "answer": "D",
+    "explanation": "PMBOK Guide 8 (Business Environment §2.1, Risk §2.7): external environment shifts require active reassessment and contingency planning. ECO Task 8 + Task 5."
+  },
+  {
+    "id": 134,
+    "domain": "Process",
+    "difficulty": "Hard",
+    "question": "On a hybrid project, the schedule includes a predictive critical path for hardware and adaptive iterations for software. How should they be coordinated?",
+    "options": {
+      "A": "Force the software track into a Gantt-only plan that locks the scope at the start of the project.",
+      "B": "Force the hardware track into iterations even though it is fundamentally predictive in nature.",
+      "C": "Identify integration milestones, align release cadence with hardware delivery, and manage dependencies jointly.",
+      "D": "Treat the predictive and adaptive tracks independently with no shared schedule between them."
+    },
+    "answer": "C",
+    "explanation": "PMBOK Guide 8 §4.2.3 hybrid: coordination is through shared milestones and synchronized cadences; forcing one track into the other's approach undermines the benefit of hybrid."
+  },
+  {
+    "id": 135,
+    "domain": "People",
+    "difficulty": "Hard",
+    "question": "Trust between an agile team and a critical customer stakeholder is low after a missed commitment last quarter. What is the MOST effective way to rebuild trust?",
+    "options": {
+      "A": "Replace members of the team that was responsible for the original missed commitment.",
+      "B": "Commit to a longer multi-year roadmap to demonstrate the team's seriousness to maintain process consistency.",
+      "C": "Stop sharing progress reports until reliability has been restored within the team.",
+      "D": "Deliver small working increments frequently and inspect outcomes with the stakeholder."
+    },
+    "answer": "D",
+    "explanation": "The Agile Practice Guide: trust is built through transparency and demonstrated delivery, not promises. Working increments at a steady cadence give direct evidence. Bigger promises (B) repeat the antipattern; silence (C) deepens distrust; team replacement (A) doesn't address the engagement pattern."
+  },
+  {
+    "id": 136,
+    "domain": "Process",
+    "difficulty": "Medium",
+    "question": "An agile team's iteration burn-down has slipped below trend in three iterations running, and stakeholders are starting to notice. A burn-down chart shows the team behind for the third iteration in a row. What should the PM/Scrum Master do FIRST?",
+    "options": {
+      "A": "Investigate root causes — impediments, estimates, DoD — at the retrospective and act on findings.",
+      "B": "Replace team members one at a time until the trend reverses and burn-down begins to improve.",
+      "C": "Increase the team's commitment in the next iteration so that the team can catch up faster.",
+      "D": "Hide the burn-down trend from stakeholders so they do not panic about the slipping iteration."
+    },
+    "answer": "A",
+    "explanation": "The Agile Practice Guide: empirical data drives inspection; root-cause investigation precedes corrective action. ECO Task 9: 'Measure, analyze, and update project metrics.'"
+  },
+  {
+    "id": 137,
+    "domain": "Process",
+    "difficulty": "Hard",
+    "question": "Which of the following BEST measures the value of a project?",
+    "options": {
+      "A": "The total volume of formal project documentation produced during the planning and execution phases.",
+      "B": "On-time, on-budget conformance to the originally established and approved project baseline.",
+      "C": "The total number of project work packages completed by the team within the planned timeframe.",
+      "D": "Outcomes and benefits realized for the beneficiaries - financial, social, and environmental."
+    },
+    "answer": "D",
+    "explanation": "PMBOK Guide 8 §3.4 Focus on Value' explicitly distinguishes value (outcomes/benefits) from output (deliverables). Baseline conformance is necessary but not sufficient. The 2026 ECO incorporates sustainability as part of value."
+  },
+  {
+    "id": 138,
+    "domain": "Process",
+    "difficulty": "Hard",
+    "question": "A critical specialist's availability is reduced by 30% halfway through a project. What is the project manager's MOST appropriate response?",
+    "options": {
+      "A": "Add unpaid overtime expectations to the team to compensate for the reduced specialist availability.",
+      "B": "Re-plan allocation, evaluate impact on schedule and scope, and discuss options with stakeholders.",
+      "C": "Replace the specialist immediately with anyone who happens to be available in the organization.",
+      "D": "Accept the reduction silently and hope the impact on the project's quality is not significant."
+    },
+    "answer": "B",
+    "explanation": "PMBOK Guide 8 §2.6: resource availability changes drive re-planning across schedule and scope. ECO Task 4 enabler 'Manage and optimize resource needs and availability.' Overtime (D) is not sustainable resource management."
+  },
+  {
+    "id": 139,
+    "domain": "Process",
+    "difficulty": "Hard",
+    "question": "A predictive project is mid-execution. Market conditions have changed, and the planned deliverable will produce significantly less business value than originally expected. What should the project manager do?",
+    "options": {
+      "A": "Reduce the project's overall budget and continue executing it with a correspondingly reduced scope.",
+      "B": "Raise the value change to governance and propose adjusting - re-scoping, re-prioritizing, or stopping.",
+      "C": "Pause the project indefinitely until the market conditions return to a more favorable state.",
+      "D": "Continue with the project as originally planned because the business case was already approved."
+    },
+    "answer": "B",
+    "explanation": "PMBOK Guide 8 Focus on Value: value is the primary indicator of project success. ECO Task 3 enabler 'Examine the business value throughout the project.' A project that no longer delivers value should be re-evaluated, not blindly continued."
+  },
+  {
+    "id": 140,
+    "domain": "People",
+    "difficulty": "Hard",
+    "question": "A team member with critical, undocumented knowledge of a legacy system is preparing to leave the project. What should the project manager do?",
+    "options": {
+      "A": "Identify the critical knowledge, run transfer sessions, and capture key items before departure.",
+      "B": "Ask the team member to write a complete manual of their knowledge on their last day.",
+      "C": "Accept the loss of the specialist's knowledge and hire a replacement after departure.",
+      "D": "Defer all knowledge transfer activities until the replacement person has been hired."
+    },
+    "answer": "A",
+    "explanation": "ECO Task 7: Identify knowledge critical to the project; 'Gather knowledge,' 'Foster an environment for knowledge transfer.' PMBOK Guide 8 (Knowledge management) emphasizes both explicit and tacit knowledge transfer in advance."
+  },
+  {
+    "id": 141,
+    "domain": "Business Environment",
+    "difficulty": "Hard",
+    "question": "Why is leadership behavior particularly important during an organizational change?",
+    "options": {
+      "A": "Leadership behavior is irrelevant if proper training is provided to the affected staff in the organization.",
+      "B": "It is not important; only the formal organizational communications about the change matter in practice.",
+      "C": "Leaders' actions signal what is genuinely valued; inconsistency between words and actions undermines adoption.",
+      "D": "Only middle-manager behavior matters during change, since these are the people closest to the affected teams."
+    },
+    "answer": "C",
+    "explanation": "PMBOK Guide 8 §3.6 'Be an Accountable Leader' and the Agile Practice Guide §6: organizational change depends heavily on consistent leadership modeling; mixed signals stall adoption."
+  },
+  {
+    "id": 142,
+    "domain": "Business Environment",
+    "difficulty": "Hard",
+    "question": "A new external regulation will affect the project's deliverable in six months. What should the PM do?",
+    "options": {
+      "A": "Assess the impact on scope and plans, engage stakeholders, and incorporate changes via change control.",
+      "B": "Wait until the new external regulation actually takes effect before making any project adjustments.",
+      "C": "Ignore the new external regulation entirely until the project's next compliance audit takes place.",
+      "D": "Cancel the project on the grounds that the new external regulation has made the project unviable throughout the project's execution phase."
+    },
+    "answer": "A",
+    "explanation": "PMBOK Guide 8 (Business Environment) and ECO Task 8 enablers: 'Survey changes,' 'Assess and prioritize the impact on project scope/backlog,' and 'Continually review.' Early action is cheaper than late."
+  },
+  {
+    "id": 143,
+    "domain": "Business Environment",
+    "difficulty": "Medium",
+    "question": "Which BEST describes 'success metrics' for governance purposes?",
+    "options": {
+      "A": "The number of team members assigned to the project at any point during its overall duration based on the project context.",
+      "B": "Schedule and cost compliance only, measured against the originally approved project baseline.",
+      "C": "Measures of intended outcomes and value - financial, customer, quality, sustainability, as applicable.",
+      "D": "Whichever metric the project manager happens to find easiest to compute on the project today."
+    },
+    "answer": "C",
+    "explanation": "PMBOK Guide 8 §2.1 and §3.4: success metrics span baseline conformance and outcomes/value. ECO Business Task 1 enabler 'Define success metrics.'"
+  },
+  {
+    "id": 144,
+    "domain": "Process",
+    "difficulty": "Hard",
+    "question": "A hybrid project has a fixed-scope predictive component and a flexible-scope adaptive component. How should the project manager handle scope agreement with stakeholders?",
+    "options": {
+      "A": "Firm scope for the predictive component and a prioritized backlog with capacity for the adaptive component.",
+      "B": "Treat both project components identically with a single frozen scope baseline that covers everything.",
+      "C": "Avoid all detailed scope discussions with the stakeholders to maintain maximum flexibility on the project.",
+      "D": "Define only the adaptive component of the project up front, leaving the predictive component open."
+    },
+    "answer": "A",
+    "explanation": "PMBOK Guide 8 §4.2.3: hybrid approaches tailor scope management by component. ECO Task 2 enabler 'Obtain stakeholder agreement on project scope.' Treating both identically (B) loses the value of hybrid; ambiguity (C) and inversion (D) misallocate certainty."
+  },
+  {
+    "id": 145,
+    "domain": "Process",
+    "difficulty": "Hard",
+    "question": "Faced with a deadline that has been pulled in by the customer, a project manager is reviewing options to compress the schedule. Which technique involves adding resources to shorten the schedule duration?",
+    "options": {
+      "A": "Fast tracking",
+      "B": "Crashing",
+      "C": "Resource leveling",
+      "D": "Scope reduction"
+    },
+    "answer": "B",
+    "explanation": "PMBOK Guide 8 (Schedule Performance Domain): crashing is a schedule compression technique that adds resources to shorten the schedule duration. Fast tracking (A) overlaps activities; resource leveling (C) addresses resource constraints; scope reduction (D) is a scope change."
+  },
+  {
+    "id": 146,
+    "domain": "People",
+    "difficulty": "Medium",
+    "question": "A project manager is leading a team that is geographically distributed. Which practice is MOST effective for building team cohesion?",
+    "options": {
+      "A": "Annual team meetings only.",
+      "B": "Regular virtual team-building activities.",
+      "C": "Communicating only through email.",
+      "D": "Assigning work without team interaction."
+    },
+    "answer": "B",
+    "explanation": "PMBOK Guide 8 and Agile Practice Guide emphasize that distributed teams need deliberate efforts to build cohesion. Regular virtual team-building activities help maintain connections across distances."
+  },
+  {
+    "id": 147,
+    "domain": "Business Environment",
+    "difficulty": "Medium",
+    "question": "An organization is transitioning from predictive to agile delivery. What is the MOST important factor for success?",
+    "options": {
+      "A": "New project management software.",
+      "B": "Executive sponsorship and cultural change.",
+      "C": "Adding more team members.",
+      "D": "Increasing the project budget."
+    },
+    "answer": "B",
+    "explanation": "The Agile Practice Guide §6 and PMBOK Guide 8 emphasize that organizational transformation requires strong executive sponsorship and cultural change. Tools and resources alone are insufficient."
+  },
+  {
+    "id": 148,
+    "domain": "Process",
+    "difficulty": "Medium",
+    "question": "Which of the following BEST describes the difference between a project and operations?",
+    "options": {
+      "A": "Projects are ongoing; operations are temporary.",
+      "B": "Projects are temporary; operations are ongoing.",
+      "C": "Projects produce services; operations produce products.",
+      "D": "There is no difference."
+    },
+    "answer": "B",
+    "explanation": "PMBOK Guide 8: A project is a temporary endeavor undertaken to create a unique product, service, or result. Operations are ongoing and repetitive activities that sustain the organization."
+  },
+  {
+    "id": 149,
+    "domain": "People",
+    "difficulty": "Medium",
+    "question": "An agile team co-located in a single room has been keeping its task board, burn-down chart, and working agreements in a private shared drive that only team members can open. An agile team's information radiators (task boards, burn-down charts, working agreements) are kept in a private team folder. The team is co-located. What is the BEST recommendation?",
+    "options": {
+      "A": "Keep radiators private to avoid stakeholder over-reaction to in-progress, unfinished data.",
+      "B": "Update the team's information radiators only at the very end of each iteration cycle.",
+      "C": "Move information radiators to a visible space accessible to stakeholders who need them.",
+      "D": "Replace the existing information radiators with weekly written status reports for stakeholders."
+    },
+    "answer": "C",
+    "explanation": "The Agile Practice Guide explicitly endorses information radiators as a transparency mechanism - their value depends on visibility. Hiding them defeats the purpose."
+  },
+  {
+    "id": 150,
+    "domain": "Process",
+    "difficulty": "Hard",
+    "question": "An organization assigns team members to multiple projects simultaneously, each at 25-50%. What is the MOST significant project management implication?",
+    "options": {
+      "A": "It is irrelevant from a planning perspective as long as the total resource allocation reaches 100%.",
+      "B": "It accelerates progress because more projects benefit from each individual person's available time.",
+      "C": "It eliminates the project manager's need to perform resource leveling across competing demands.",
+      "D": "Context-switching reduces effective throughput; planning must account for the cost of fragmentation."
+    },
+    "answer": "D",
+    "explanation": "The Agile Practice Guide and PMBOK Guide 8.2.6 both note that high context-switching reduces effective capacity; planning that assumes 100% productive use of fractional allocations overstates throughput."
+  },
+  {
+    "id": 151,
+    "domain": "Process",
+    "difficulty": "Medium",
+    "question": "A project manager is being challenged by a governance member about the frequency of formal status reviews on their project. Which is the MOST appropriate frequency for evaluating project status?",
+    "options": {
+      "A": "Daily evaluation in every situation, regardless of the project's actual context and risk profile.",
+      "B": "A cadence appropriate to the rate of change, risk profile, and decision needs of the project.",
+      "C": "Once at project end, since status evaluation has no benefit while the project is still in flight.",
+      "D": "Quarterly evaluation in every situation, regardless of the project's actual context and risk profile."
+    },
+    "answer": "B",
+    "explanation": "PMBOK Guide 8: status evaluation cadence is contextual - high-uncertainty projects warrant more frequent inspection, stable projects less."
+  },
+  {
+    "id": 152,
+    "domain": "People",
+    "difficulty": "Hard",
+    "question": "A project manager interviews team members and finds that each person's understanding of project success differs significantly from the documented charter. What does this MOST likely indicate?",
+    "options": {
+      "A": "The charter was incorrectly written and needs to be re-drafted from scratch.",
+      "B": "Documented but not effectively communicated and internalized by the team.",
+      "C": "Team members are not paying enough attention to the available project documents.",
+      "D": "The project should be cancelled because the team is not aligned on its purpose."
+    },
+    "answer": "B",
+    "explanation": "ECO People Task 1 emphasizes ensuring a shared vision. When team members have different interpretations of success, it indicates the vision was documented but not effectively communicated and internalized."
+  },
+  {
+    "id": 153,
+    "domain": "People",
+    "difficulty": "Medium",
+    "question": "Which BEST describes the purpose of a stakeholder engagement assessment matrix?",
+    "options": {
+      "A": "To track each project stakeholder's preferred meeting time and format preferences.",
+      "B": "Compare current engagement levels with desired levels and plan actions to close gaps.",
+      "C": "Rank project stakeholders by their financial contribution to the overall project budget.",
+      "D": "Document each stakeholder's preferred communication channel and nothing further."
+    },
+    "answer": "B",
+    "explanation": "PMBOK Guide 8 (Stakeholders Performance Domain): the engagement assessment matrix compares current (C) and desired (D) engagement and drives targeted action."
+  },
+  {
+    "id": 154,
+    "domain": "People",
+    "difficulty": "Hard",
+    "question": "Two key stakeholders have stated expectations that, on closer reading, are contradictory. The project manager has not yet addressed this. What should they do?",
+    "options": {
+      "A": "Document both expectations and let the execution phase reveal which one is feasible.",
+      "B": "Adopt the expectation from the higher-ranking of the two stakeholders and proceed.",
+      "C": "Average the two stakeholder expectations together into a single compromise expectation.",
+      "D": "Facilitate a structured discussion to surface the contradiction and align expectations."
+    },
+    "answer": "D",
+    "explanation": "ECO Task 5: Identify stakeholder expectations and Facilitate discussions to align expectations. PMBOK Guide 8 emphasizes early surfacing of conflicting expectations. Hierarchy-based picking damages the losing stakeholder; deferring wastes work; averaging produces an expectation neither owns."
+  },
+  {
+    "id": 155,
+    "domain": "Process",
+    "difficulty": "Hard",
+    "question": "A project manager identifies that the project's current backlog includes a large feature whose value is uncertain. What is the BEST approach?",
+    "options": {
+      "A": "Build the entire feature first as planned in order to find out its actual business value to users.",
+      "B": "Drop the entire feature from the backlog immediately without any analysis or further discussion.",
+      "C": "Defer the entire feature until a future project so that its value can be assessed later in time.",
+      "D": "Build a small slice or experiment to test the value hypothesis before committing to the full feature."
+    },
+    "answer": "D",
+    "explanation": "The Agile Practice Guide: uncertainty in value is best addressed through small, fast experiments (e.g., MVPs, spikes) before significant investment. PMBOK Guide 8 §3.4 Focus on Value emphasizes validating assumed value."
+  },
+  {
+    "id": 156,
+    "domain": "Business Environment",
+    "difficulty": "Medium",
+    "question": "Inspect-and-adapt cycles in agile delivery serve continuous improvement primarily by:",
+    "options": {
+      "A": "Building in regular moments to examine outcomes and ways of working, then making targeted adjustments.",
+      "B": "Producing additional formal project documentation describing the team's improvement activities.",
+      "C": "Replacing the project's formal risk management process with an inspect-and-adapt approach.",
+      "D": "Allowing the project's scope to grow naturally without any formal change control checks."
+    },
+    "answer": "A",
+    "explanation": "The Agile Practice Guide §5: inspect-and-adapt is the engine of agile continuous improvement; events like reviews and retrospectives create the regular cadence."
+  },
+  {
+    "id": 157,
+    "domain": "People",
+    "difficulty": "Hard",
+    "question": "An agile product owner is the team's interface with most external stakeholders and is becoming a bottleneck. What is the BEST corrective action?",
+    "options": {
+      "A": "Have the development team bypass the product owner on backlog decisions to move faster.",
+      "B": "Replace the product owner with a different person who can handle the workload better.",
+      "C": "Enable direct team-stakeholder clarifications, with the PO keeping backlog ordering authority.",
+      "D": "Add a layer of business analysts between the product owner and the development team for the duration of the engagement."
+    },
+    "answer": "C",
+    "explanation": "The Agile Practice Guide encourages direct conversation between developers and business stakeholders for clarification while preserving the product owner's accountability for backlog ordering."
+  },
+  {
+    "id": 158,
+    "domain": "People",
+    "difficulty": "Hard",
+    "question": "An external customer's procurement team and end-user team have very different expectations of the project. The PM has been talking primarily to procurement. What is the BEST course of action?",
+    "options": {
+      "A": "Wait passively for the customer to raise the apparent misalignment between the groups.",
+      "B": "Continue with procurement as the sole project interface; they were the contract signers.",
+      "C": "Engage both groups, identify expectations, and align outcomes with end-user value.",
+      "D": "Switch the sole project interface from procurement to the customer's end-user team."
+    },
+    "answer": "C",
+    "explanation": "ECO Task 6 enabler 'Identify internal and external customer expectations.' PMBOK Guide 8 'Focus on Value': contractual conformance ≠ value to end users. Engaging both groups aligns outcomes with the full customer picture."
+  },
+  {
+    "id": 159,
+    "domain": "Business Environment",
+    "difficulty": "Hard",
+    "question": "While auditing the project's compliance posture, the project manager has uncovered a potential gap against a regulation that may apply to the deliverable. A potential compliance gap is identified. What is the MOST appropriate first response?",
+    "options": {
+      "A": "Analyze the consequences of noncompliance, determine the action needed, and engage stakeholders.",
+      "B": "Ignore the identified compliance gap until an external auditor or regulator eventually finds it.",
+      "C": "Hide the identified compliance gap from the project sponsor in order to avoid alarming them.",
+      "D": "Cancel the project on the grounds that the identified compliance gap has made it unviable."
+    },
+    "answer": "A",
+    "explanation": "ECO Task 2 enablers 'Analyze the consequences of noncompliance' and 'Determine the necessary approach and action(s) to address compliance needs.' Active management beats avoidance."
+  },
+  {
+    "id": 160,
+    "domain": "People",
+    "difficulty": "Hard",
+    "question": "Two senior developers on an agile team have disagreed in three consecutive iterations about the team's branching strategy. Discussions in the retrospective have not resolved it and other team members are starting to take sides. What is the BEST action?",
+    "options": {
+      "A": "Wait for the team to self-organize and reach consensus on the strategy for the duration of the engagement.",
+      "B": "Move the disagreement out of retrospectives and into a written-only channel.",
+      "C": "Address it directly and privately, focusing on interests and the team's goals.",
+      "D": "Decide on a branching strategy yourself and direct the team to follow it."
+    },
+    "answer": "C",
+    "explanation": "ECO People Task 2 calls for addressing conflicts early, in private, with a collaborative approach. The Agile Practice Guide emphasizes servant leadership: surface the conflict's substance, then help parties find a resolution."
+  },
+  {
+    "id": 161,
+    "domain": "Business Environment",
+    "difficulty": "Hard",
+    "question": "A multi-year transformation moving multiple delivery teams from waterfall to agile is meeting strong resistance from several team leads. An organization is moving from predictive to agile delivery. Several teams are resisting. What should the PMO / change leader do?",
+    "options": {
+      "A": "Engage the resistance, understand root causes, and tailor support — training, coaching, pilots, leadership.",
+      "B": "Mandate the move to agile delivery across the organization without further discussion or consultation.",
+      "C": "Replace the resistant teams with new teams that are more enthusiastic about the move to agile delivery.",
+      "D": "Revert to predictive delivery at the first sign of resistance from any team within the organization."
+    },
+    "answer": "A",
+    "explanation": "The Agile Practice Guide §6 and PMBOK Guide §8: organizational change requires addressing the human side. Mandates without engagement create compliance without commitment."
+  },
+  {
+    "id": 162,
+    "domain": "Business Environment",
+    "difficulty": "Medium",
+    "question": "An issue has affected multiple stakeholders. Who should the PM collaborate with to resolve it?",
+    "options": {
+      "A": "Engage the relevant stakeholders in the resolution, balancing perspectives, constraints, and authority.",
+      "B": "Resolve the issue unilaterally as the project manager, since this saves time and avoids long meetings.",
+      "C": "Engage only the project sponsor, since the sponsor is the final decision-maker on all project issues.",
+      "D": "Engage only the project team, since the team is the group with the most operational knowledge."
+    },
+    "answer": "A",
+    "explanation": "ECO Task 4 enabler 'Collaborate with relevant stakeholders on an approach to resolve the issues.' Multi-stakeholder issues need multi-stakeholder solutions; PMBOK Guide 8 (Stakeholders) reinforces this."
+  },
+  {
+    "id": 163,
+    "domain": "Process",
+    "difficulty": "Hard",
+    "question": "An agile team monitors several metrics. Which combination BEST represents flow and value?",
+    "options": {
+      "A": "The number of slides in the status decks the team produces for each iteration's stakeholders.",
+      "B": "Hours worked by team members and the number of emails they have sent during each iteration.",
+      "C": "Lines of code written and the total number of meetings held by the team in each iteration.",
+      "D": "Throughput, cycle time, work-in-progress, and the actual business value delivered to users."
+    },
+    "answer": "D",
+    "explanation": "The Agile Practice Guide §5: throughput, cycle time, and WIP are core flow metrics; pairing with value delivered keeps focus on outcomes."
+  },
+  {
+    "id": 164,
+    "domain": "Process",
+    "difficulty": "Medium",
+    "question": "Which of the following is a key activity during project closure?",
+    "options": {
+      "A": "Cancelling outstanding project risks from the register without performing any further analysis.",
+      "B": "Initiating the organization's next project before the current project has been formally closed as the most direct path forward.",
+      "C": "Confirming stakeholder acceptance, capturing lessons learned, closing contracts, and transitioning the deliverable.",
+      "D": "Removing all of the project's records from the organization's repository to free up storage space."
+    },
+    "answer": "C",
+    "explanation": "PMBOK Guide 8 §4.5.5 Closing Focus Area and ECO Task 10 enablers: acceptance, lessons learned, contract closure, transition. Records are retained, not removed."
+  },
+  {
+    "id": 165,
+    "domain": "People",
+    "difficulty": "Medium",
+    "question": "A project manager's status reports have become quite long. The sponsor has stopped reading them carefully. What is the BEST adjustment?",
+    "options": {
+      "A": "Tailor length and content to the sponsor's actual decision needs, leading with key items.",
+      "B": "Stop sending the regular status reports to the sponsor since they are not being read.",
+      "C": "Make the project's status report even longer to ensure no information at all is missed.",
+      "D": "Continue with the same lengthy report format; the sponsor's reading habits are not the PM's concern."
+    },
+    "answer": "A",
+    "explanation": "ECO Task 8 enabler 'Create reports aligned with sponsors and stakeholder expectations.' PMBOK Guide 8 'Adopt a Holistic View' includes attending to the audience's actual decision needs."
+  },
+  {
+    "id": 166,
+    "domain": "People",
+    "difficulty": "Medium",
+    "question": "A 14-month project is now within two weeks of formal closure and the project manager is planning what to capture. A project is closing. The project manager wants to ensure knowledge gained is preserved for future similar projects. Which action contributes MOST?",
+    "options": {
+      "A": "Run final lessons sessions, capture successes and failures, and contribute to OPAs.",
+      "B": "Delete the closing project's documents to free up storage on the organization's drives.",
+      "C": "Wait six months and then write the lessons learned from memory after the team disbands.",
+      "D": "Send a one-page summary of the project's results to the executive sponsor only."
+    },
+    "answer": "A",
+    "explanation": "ECO Task 7 and Process Task 10 (project closure): final lessons learned and updates to OPAs are explicit closure activities. PMBOK Guide 8 emphasizes capturing learning while it is fresh and contributing it to the organizational repository."
+  },
+  {
+    "id": 167,
+    "domain": "Business Environment",
+    "difficulty": "Medium",
+    "question": "A risk register typically captures which information?",
+    "options": {
+      "A": "Only the project's largest single risk, since other smaller risks do not warrant register tracking.",
+      "B": "Only the risks that the executive project sponsor has explicitly approved for active management.",
+      "C": "Only the descriptions of the risks themselves, with no additional information about each one as a standard precaution.",
+      "D": "Risk identification, probability/impact analysis, response strategies, owners, and status, updated continuously."
+    },
+    "answer": "D",
+    "explanation": "PMBOK Guide 8 §2.7 and ECO Task 5 enabler 'Maintain a risk register.' The register is a living artifact."
+  },
+  {
+    "id": 168,
+    "domain": "Process",
+    "difficulty": "Hard",
+    "question": "A project is being procured in a domain where the customer's needs are expected to evolve rapidly as the work proceeds. A project requires services with rapidly changing requirements. Which contract type is GENERALLY most appropriate?",
+    "options": {
+      "A": "A contract written without any specified acceptance criteria for the planned deliverable.",
+      "B": "A firm-fixed-price contract that covers the entire project's scope and duration without changes.",
+      "C": "Time-and-materials or cost-reimbursable with controls and incentives appropriate to uncertainty.",
+      "D": "A lump-sum turnkey contract with a single delivery at the end of the project's duration."
+    },
+    "answer": "C",
+    "explanation": "PMBOK Guide 8 (procurement) and the Agile Practice Guide on contracting: changing requirements make FFP risky for both parties; T&M and cost-reimbursable with controls (caps, ceilings, gain-share) better fit uncertainty."
+  },
+  {
+    "id": 169,
+    "domain": "People",
+    "difficulty": "Hard",
+    "question": "A senior architect is preparing to leave the company within two months and the project manager is planning how to preserve their judgment-based knowledge. Tacit knowledge is BEST transferred through which method?",
+    "options": {
+      "A": "Through recorded video lectures viewed individually by people who need the knowledge.",
+      "B": "Through email distribution lists targeted at the relevant audience within the organization.",
+      "C": "Through comprehensive written documentation that fully captures the practitioner's experience.",
+      "D": "Through direct conversation, pairing, mentoring, or shadowing alongside the practitioner."
+    },
+    "answer": "D",
+    "explanation": "PMBOK Guide 8 distinguishes tacit knowledge (skills, experience, judgment) from explicit knowledge (facts, procedures). Tacit knowledge transfers primarily through interaction; documentation alone is insufficient. The Agile Practice Guide endorses pairing for tacit transfer."
+  },
+  {
+    "id": 170,
+    "domain": "Process",
+    "difficulty": "Medium",
+    "question": "Why do agile approaches typically progressively elaborate plans rather than fully define them up front?",
+    "options": {
+      "A": "Because agile teams generally dislike planning activities and prefer to start building immediately.",
+      "B": "Because detailed long-range plans are often invalidated by learning and change during the project.",
+      "C": "Because the organizational governance process does not require any plans in agile delivery.",
+      "D": "To save documentation effort and avoid writing plans that may not actually be needed later."
+    },
+    "answer": "B",
+    "explanation": "The Agile Practice Guide: progressive elaboration uses learning from each increment to inform the next plan, reducing waste from premature detail."
+  },
+  {
+    "id": 171,
+    "domain": "People",
+    "difficulty": "Hard",
+    "question": "Halfway through an agile product development, the product owner is replaced. The new product owner expresses a strategic direction that differs from what the team has been building. What is the BEST action?",
+    "options": {
+      "A": "Archive the current product backlog so the new product owner can rebuild it alone.",
+      "B": "Convene a vision-alignment workshop with the team before the next planning event.",
+      "C": "Stop all development until executive sponsors choose between the two directions.",
+      "D": "Continue executing the current iteration while evaluating the strategic shift."
+    },
+    "answer": "B",
+    "explanation": "The Agile Practice Guide stresses keeping the product vision current as conditions change and treating it as a living artifact. A workshop refreshes the shared vision collaboratively."
+  },
+  {
+    "id": 172,
+    "domain": "People",
+    "difficulty": "Hard",
+    "question": "A stakeholder claims they were not informed about a key project decision that was clearly described in the last status report. What does this MOST likely indicate?",
+    "options": {
+      "A": "The stakeholder is being deliberately dishonest about whether they received the information.",
+      "B": "The current status report format is fine; the stakeholder is at fault for missing the item.",
+      "C": "All status reports should be discontinued immediately to avoid this kind of dispute.",
+      "D": "Information was sent but not received and understood — the communication loop is incomplete."
+    },
+    "answer": "D",
+    "explanation": "Communication is only complete when received and understood. ECO Task 8 enabler 'Establish a feedback loop.' PMBOK Guide 8 (Stakeholders) recognizes that signal-out is not the same as signal-received; confirmation closes the loop."
+  },
+  {
+    "id": 173,
+    "domain": "People",
+    "difficulty": "Hard",
+    "question": "A newly assigned project manager takes over a 14-month digital transformation spanning three business units. Each unit's leadership describes the project's purpose in noticeably different terms. What should the project manager do FIRST?",
+    "options": {
+      "A": "Run a facilitated session to converge on a shared vision and success criteria.",
+      "B": "Document each unit's interpretation in the stakeholder register and proceed.",
+      "C": "Adopt the sponsor's wording and apply it across the three business units in accordance with the existing plan.",
+      "D": "Escalate the discrepancy to the steering committee and pause project work."
+    },
+    "answer": "A",
+    "explanation": "ECO People Task 1 emphasizes helping ensure a shared vision with key stakeholders. PMBOK Guide 8 (Stakeholders Performance Domain and the 'Adopt a Holistic View' principle) stresses that misalignment on purpose at the outset jeopardizes value delivery."
+  },
+  {
+    "id": 174,
+    "domain": "People",
+    "difficulty": "Medium",
+    "question": "A project manager is explaining communication design choices to a new team lead. Which characteristic distinguishes 'push' from 'pull' communication?",
+    "options": {
+      "A": "Push is always verbal communication; pull is always written communication and documents.",
+      "B": "There is no meaningful distinction between push and pull communication on a project.",
+      "C": "Push communication uses email channels; pull communication uses Slack or chat channels.",
+      "D": "Push delivers information whether the recipient asked for it; pull makes information available."
+    },
+    "answer": "D",
+    "explanation": "PMBOK Guide 8 (Stakeholders Performance Domain) describes three communication modes: interactive (two-way), push (sent to recipients), and pull (made available for recipients to access). Information radiators are a pull mechanism."
+  },
+  {
+    "id": 175,
+    "domain": "Process",
+    "difficulty": "Hard",
+    "question": "A senior executive asks for a single percentage representing 'how done' the project is. What is the MOST appropriate response?",
+    "options": {
+      "A": "Provide a single percentage from story points completed and represent it as definitive status.",
+      "B": "Refuse to answer the executive's question on the grounds that a single percentage is meaningless.",
+      "C": "Provide a balanced view — scope done, value released, remaining backlog, forecast, key risks.",
+      "D": "Provide a percentage representing meeting attendance instead of any work-completion percentage."
+    },
+    "answer": "C",
+    "explanation": "PMBOK Guide 8 (Adopt a Holistic View): single-number status oversimplifies. Provide what the executive needs to make decisions: scope, value, forecast, risk. A single summary number can accompany the balanced view if requested."
+  },
+  {
+    "id": 176,
+    "domain": "Business Environment",
+    "difficulty": "Medium",
+    "question": "During the kickoff of a new project, the project manager wants to make sure everyone shares the same understanding of basic terms. Which is the BEST definition of project risk?",
+    "options": {
+      "A": "Any problem that the project team is currently facing during the execution of their planned work.",
+      "B": "Only negative future events, since opportunities are tracked through a different project artifact.",
+      "C": "An uncertain future event or condition that, if it occurs, has a positive or negative project effect.",
+      "D": "An event that has already occurred and is currently affecting the project's outcomes negatively given the team's current capacity."
+    },
+    "answer": "C",
+    "explanation": "PMBOK Guide 8 §2.7 Risk Performance Domain: risk is uncertainty with potential effect — including opportunities (positive) and threats (negative). Events that have occurred are issues, not risks."
+  },
+  {
+    "id": 177,
+    "domain": "Business Environment",
+    "difficulty": "Medium",
+    "question": "A project manager is preparing the compliance section of a new project's planning documents. Which category of compliance requirements should a project manager identify?",
+    "options": {
+      "A": "Only the compliance requirements that the project team finds interesting or technically appealing.",
+      "B": "Only the compliance requirements that are inexpensive to meet within the existing project budget.",
+      "C": "Legal/regulatory, security, health and safety, sustainability, and contractual, as applicable.",
+      "D": "Only legal and regulatory compliance, since these are the categories that carry the most risk."
+    },
+    "answer": "C",
+    "explanation": "PMBOK Guide 8 and ECO Business Task 2 enabler 'Classify compliance categories.' Compliance scope spans regulatory, security, H&S, sustainability, contractual."
+  },
+  {
+    "id": 178,
+    "domain": "Business Environment",
+    "difficulty": "Hard",
+    "question": "How does an agile approach inherently address some categories of project risk?",
+    "options": {
+      "A": "By transferring all of the project's risk to the product owner, who manages it on behalf of the team.",
+      "B": "By avoiding the formal risk identification activity entirely in favor of just-in-time responses.",
+      "C": "Incremental delivery, frequent feedback, and short iterations expose uncertainty and limit each bet.",
+      "D": "By eliminating project risk altogether through the use of team self-organization and empowerment."
+    },
+    "answer": "C",
+    "explanation": "The Agile Practice Guide §3: iterative-incremental delivery is itself a risk-management strategy for requirement and technology uncertainty. PMBOK Guide 8 §2.7 acknowledges that delivery approach affects risk exposure."
+  },
+  {
+    "id": 179,
+    "domain": "Process",
+    "difficulty": "Hard",
+    "question": "Vendor performance has been weakening. The PM has documented missed dates and quality issues. What should the PM do FIRST?",
+    "options": {
+      "A": "Reduce the vendor's payments unilaterally as a way of signaling dissatisfaction with their performance.",
+      "B": "Stop communicating with the vendor in order to send a clear signal that their performance is failing.",
+      "C": "Communicate the documented concerns to the vendor and engage on root cause and corrective actions.",
+      "D": "Terminate the vendor's contract immediately on the basis of the documented performance concerns."
+    },
+    "answer": "C",
+    "explanation": "PMBOK Guide 8 (procurement) and ECO Task 5 enabler 'Evaluate vendor performance': formal performance dialog precedes contract enforcement. Unilateral steps (A, B) and silence (D) damage the relationship and risk breach."
+  },
+  {
+    "id": 180,
+    "domain": "Process",
+    "difficulty": "Hard",
+    "question": "A program manager is designing the status dashboard for a portfolio of predictive projects and is choosing what to show on it. Which combination of metrics gives the BEST picture of project status on a predictive project?",
+    "options": {
+      "A": "Only the project's schedule status, reported against the established schedule baseline since this approach is straightforward.",
+      "B": "Only the project manager's narrative summary of how the project is going at the present time.",
+      "C": "A balanced set — schedule, cost, scope, quality, risk — interpreted together rather than alone.",
+      "D": "Only the customer's anecdotal feedback about how satisfied they currently are with the project."
+    },
+    "answer": "C",
+    "explanation": "PMBOK Guide 8 (Adopt a Holistic View): single-dimension status misleads. ECO Task 9 enabler 'Develop project metrics.' Balanced metrics expose trade-offs."
+  }
+]

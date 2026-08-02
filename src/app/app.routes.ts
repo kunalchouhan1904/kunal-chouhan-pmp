@@ -4,7 +4,7 @@ import { Layout } from './core/layout/layout/layout';
 
 import { Dashboard } from './features/dashboard/dashboard';
 import { StudyPlan } from './features/study-plan/study-plan';
-import { Learning } from './features/learning/learning';
+import { LearningComponent } from './features/learning/learning.component';
 import { Practice } from './features/practice/practice';
 import { MockExams } from './features/mock-exams/mock-exams';
 import { Review } from './features/review/review';
@@ -22,7 +22,7 @@ export const routes: Routes = [
 
       { path: 'dashboard', component: Dashboard },
       { path: 'study-plan', component: StudyPlan },
-      { path: 'learning', component: Learning },
+      { path: 'learning', component: LearningComponent },
       { path: 'practice', component: Practice },
       { path: 'mock-exams', component: MockExams },
       { path: 'review', component: Review },
