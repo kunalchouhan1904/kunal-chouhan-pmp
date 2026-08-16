@@ -8,7 +8,13 @@
                 <h1>Learning Center</h1>
                 <p>Question {{currentIndex+1}} of {{questions.length}}</p>
             </div>
-            <button class="bookmark-btn">☆ Bookmark</button>
+            <button
+                class="bookmark-btn"
+                [class.bookmarked]="isBookmarked"
+                (click)="toggleBookmark()"
+                type="button">
+                {{isBookmarked ? '★ Bookmarked' : '☆ Bookmark'}}
+            </button>
         </div>
         <!--Card-->
         <div class="question-card">
@@ -25,7 +31,7 @@
                 <div class="option" [class.correct]="showAnswer && currentQuestion?.answer==='D'"><strong>D. </strong>{{currentQuestion?.options?.D}}</div>
             </div>
             <!--ShowAnswer-->
-            <button class="answer-btn" (click)="toggleAnswer()">{{showAnswer?'HideAnswer':'ShowAnswer'}}</button>
+            <button class="answer-btn" (click)="toggleAnswer()">{{showAnswer?'Hide Answer':'Show Answer'}}</button>
             <!--Answer-->
             <div class="answer-panel" *ngIf="showAnswer">
                 <h3>Correct Answer: {{currentQuestion?.answer}}</h3>
@@ -34,8 +40,8 @@
         </div>
         <!--Navigation-->
         <div class="navigation">
-            <button (click)="previousQuestion()" [disabled]="currentIndex==0">←Previous</button>
-            <button (click)="nextQuestion()" [disabled]="currentIndex==questions.length-1">Next→</button>
+            <button (click)="previousQuestion()" [disabled]="currentIndex==0">← Previous</button>
+            <button (click)="nextQuestion()" [disabled]="currentIndex==questions.length-1">Next →</button>
         </div>
     </ng-container>
 </div>
