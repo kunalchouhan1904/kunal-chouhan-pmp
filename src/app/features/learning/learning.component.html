@@ -1,194 +1,41 @@
 <div class="learning-container">
-
-
-  <!-- <div class="loading" *ngIf="loading">
-
-    Loading Question Bank...
- loading {{loading}} - error{{error}}
-  </div>
-
-
-  <div class="error" *ngIf="!loading && error">
-
-    <h2>{{ error }}</h2>
-
-    <button (click)="reload()">
-
-      Reload
-
-    </button>
-
-  </div> -->
-
-  <!-- Question UI
-   <ng-container *ngIf="!loading && !error && currentQuestion">
-     -->
-
-  <ng-container>
-
-    <!-- Header -->
-
-    <div class="page-header">
-
-      <div>
-
-        <h1>Learning Center</h1>
-
-        <p>
-
-          Question {{ currentIndex + 1 }}
-
-          of
-
-          {{ questions.length }}
-
-        </p>
-
-      </div>
-
-      <button class="bookmark-btn">
-
-        ☆ Bookmark
-
-      </button>
-
-    </div>
-
-    <!-- Card -->
-
-    <div class="question-card">
-
-      <div class="question-meta">
-
-        <span class="domain">
-
-          {{ currentQuestion?.domain }}
-
-        </span>
-
-        <span class="difficulty" [ngClass]="currentQuestion?.difficulty?.toLowerCase() || 'medium'">
-
-
-          {{ currentQuestion?.difficulty }}
-
-        </span>
-
-      </div>
-
-      <h2>
-
-        Q{{ currentIndex + 1 }}.
-
-        {{ currentQuestion?.question }}
-
-      </h2>
-
-      <!-- Options -->
-
-      <div class="options">
-
-        <div
-          class="option"
-          [class.correct]="showAnswer && currentQuestion?.answer==='A'">
-
-          <strong>A.</strong>
-
-          {{ currentQuestion?.options?.A }}
-
+    <!--<divclass="loading"*ngIf="loading">LoadingQuestionBank...loading{{loading}}-error{{error}}</div><divclass="error"*ngIf="!loading&&error"><h2>{{error}}</h2><button(click)="reload()">Reload</button></div>-->
+    <!--QuestionUI<ng-container*ngIf="!loading&&!error&&currentQuestion">-->
+    <ng-container>
+        <!--Header-->
+        <div class="page-header">
+            <div>
+                <h1>Learning Center</h1>
+                <p>Question {{currentIndex+1}} of {{questions.length}}</p>
+            </div>
+            <button class="bookmark-btn">☆ Bookmark</button>
         </div>
-
-        <div
-          class="option"
-          [class.correct]="showAnswer && currentQuestion?.answer==='B'">
-
-          <strong>B.</strong>
-
-          {{ currentQuestion?.options?.B }}
-
+        <!--Card-->
+        <div class="question-card">
+            <div class="question-meta">
+                <span class="domain">{{currentQuestion?.domain}}</span>
+                <span class="difficulty" [ngClass]="currentQuestion?.difficulty?.toLowerCase()||'medium'">{{currentQuestion?.difficulty}}</span>
+            </div>
+            <h2>Q{{currentIndex+1}}. {{currentQuestion?.question}}</h2>
+            <!--Options-->
+            <div class="options">
+                <div class="option" [class.correct]="showAnswer && currentQuestion?.answer==='A'"><strong>A. </strong>{{currentQuestion?.options?.A}}</div>
+                <div class="option" [class.correct]="showAnswer && currentQuestion?.answer==='B'"><strong>B. </strong>{{currentQuestion?.options?.B}}</div>
+                <div class="option" [class.correct]="showAnswer && currentQuestion?.answer==='C'"><strong>C. </strong>{{currentQuestion?.options?.C}}</div>
+                <div class="option" [class.correct]="showAnswer && currentQuestion?.answer==='D'"><strong>D. </strong>{{currentQuestion?.options?.D}}</div>
+            </div>
+            <!--ShowAnswer-->
+            <button class="answer-btn" (click)="toggleAnswer()">{{showAnswer?'HideAnswer':'ShowAnswer'}}</button>
+            <!--Answer-->
+            <div class="answer-panel" *ngIf="showAnswer">
+                <h3>Correct Answer: {{currentQuestion?.answer}}</h3>
+                <p>{{currentQuestion?.explanation}}</p>
+            </div>
         </div>
-
-        <div
-          class="option"
-          [class.correct]="showAnswer && currentQuestion?.answer==='C'">
-
-          <strong>C.</strong>
-
-          {{ currentQuestion?.options?.C }}
-
+        <!--Navigation-->
+        <div class="navigation">
+            <button (click)="previousQuestion()" [disabled]="currentIndex==0">←Previous</button>
+            <button (click)="nextQuestion()" [disabled]="currentIndex==questions.length-1">Next→</button>
         </div>
-
-        <div
-          class="option"
-          [class.correct]="showAnswer && currentQuestion?.answer==='D'">
-
-          <strong>D.</strong>
-
-          {{ currentQuestion?.options?.D }}
-
-        </div>
-
-      </div>
-
-      <!-- Show Answer -->
-
-      <button
-        class="answer-btn"
-        (click)="toggleAnswer()">
-
-        {{ showAnswer ? 'Hide Answer' : 'Show Answer' }}
-
-      </button>
-
-      <!-- Answer -->
-
-      <div
-        class="answer-panel"
-        *ngIf="showAnswer">
-
-        <h3>
-
-          Correct Answer:
-
-          {{ currentQuestion?.answer }}
-
-        </h3>
-
-        <p>
-
-          {{ currentQuestion?.explanation }}
-
-        </p>
-
-      </div>
-
-    </div>
-
-    <!-- Navigation -->
-
-    <div class="navigation">
-
-      <button
-
-        (click)="previousQuestion()"
-
-        [disabled]="currentIndex==0">
-
-        ← Previous
-
-      </button>
-
-      <button
-
-        (click)="nextQuestion()"
-
-        [disabled]="currentIndex==questions.length-1">
-
-        Next →
-
-      </button>
-
-    </div>
-
-  </ng-container>
-
+    </ng-container>
 </div>
