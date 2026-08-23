@@ -1,22 +1,13 @@
 <div class="sidebar-root">
-
-  <button
-    type="button"
-    class="mobile-menu-button"
+  <button type="button" class="mobile-menu-button"
     (click)="toggleSidebar()"
     [attr.aria-expanded]="mobileOpen"
     [attr.aria-label]="mobileOpen ? 'Close navigation menu' : 'Open navigation menu'">
     <span>{{ mobileOpen ? '✕' : '☰' }}</span>
   </button>
 
-  <div
-    class="sidebar-shell"
-    [class.collapsed]="collapsed"
-    [class.mobile-open]="mobileOpen">
-
-    <button
-      type="button"
-      class="desktop-toggle"
+  <div class="sidebar-shell" [class.collapsed]="collapsed" [class.mobile-open]="mobileOpen">
+    <button type="button" class="desktop-toggle"
       (click)="toggleSidebar()"
       [attr.aria-expanded]="!collapsed"
       [attr.aria-label]="collapsed ? 'Expand sidebar' : 'Collapse sidebar'"
@@ -25,38 +16,30 @@
     </button>
 
     <nav class="sidebar" aria-label="Main navigation">
-
-      <a routerLink="/" routerLinkActive="active"
-         [routerLinkActiveOptions]="{ exact: true }"
+      <a routerLink="/" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }"
          (click)="onNavigationClick()" title="Dashboard">
-        <span class="nav-icon">📊</span>
-        <span class="nav-label">Dashboard</span>
+        <span class="nav-icon">🏠</span><span class="nav-label">Dashboard</span>
       </a>
-
 
       <a routerLink="/learning" routerLinkActive="active"
          (click)="onNavigationClick()" title="Learning Center">
-        <span class="nav-icon">📚</span>
-        <span class="nav-label">Learning Center</span>
+        <span class="nav-icon">📚</span><span class="nav-label">Learning Center</span>
       </a>
-
 
       <a routerLink="/mock-exams" routerLinkActive="active"
          (click)="onNavigationClick()" title="Mock Exams">
-        <span class="nav-icon">🎯</span>
-        <span class="nav-label">Mock Exams</span>
+        <span class="nav-icon">🎯</span><span class="nav-label">Mock Exams</span>
       </a>
 
-
-
+      <div class="sidebar-divider"></div>
+      <div class="sidebar-quote">
+        <span>🏆</span>
+        <strong>You're on Track!</strong>
+        <small>Keep learning every day.</small>
+      </div>
     </nav>
   </div>
 
-  <div
-    class="sidebar-backdrop"
-    [class.visible]="mobileOpen"
-    (click)="closeMobileSidebar()"
-    aria-hidden="true">
-  </div>
-
+  <div class="sidebar-backdrop" [class.visible]="mobileOpen"
+    (click)="closeMobileSidebar()" aria-hidden="true"></div>
 </div>

@@ -1,31 +1,89 @@
+/* App shell — fixed viewport with scrolling confined to the main content area */
+
 :host {
   display: flex;
   flex-direction: column;
-
-  height: 100vh;
+  width: 100%;
+  height: 100dvh;
+  min-height: 0;
+  max-height: 100dvh;
   overflow: hidden;
+  background: #f5f7fc;
+}
+
+app-header {
+  display: block;
+  flex: 0 0 auto;
+  z-index: 1000;
 }
 
 .app-container {
   display: flex;
-
-  flex: 1;
-
+  flex: 1 1 auto;
+  width: 100%;
   min-height: 0;
-
+  height: auto;
   overflow: hidden;
+  background:
+    radial-gradient(circle at 80% 10%, rgba(102, 81, 255, .06), transparent 28%),
+    #f5f7fc;
+}
+
+app-sidebar {
+  display: block;
+  flex: 0 0 auto;
+  min-height: 0;
 }
 
 .content {
-  flex: 1;
-
-  overflow-y: auto;
-  overflow-x: hidden;
-
+  flex: 1 1 auto;
   min-width: 0;
   min-height: 0;
+  height: 100%;
+  padding: 30px 34px 60px;
+  overflow-x: hidden;
+  overflow-y: auto;
+  overscroll-behavior: contain;
+  -webkit-overflow-scrolling: touch;
+  scrollbar-gutter: stable;
+}
 
-  padding: 30px;
+/* Keep the scrollbar inside the content area visually subtle. */
+.content::-webkit-scrollbar {
+  width: 8px;
+}
 
-  background: #f5f7fa;
+.content::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.content::-webkit-scrollbar-thumb {
+  background: #cbd3e5;
+  border-radius: 10px;
+}
+
+.content::-webkit-scrollbar-thumb:hover {
+  background: #aeb9d1;
+}
+
+/* Firefox */
+.content {
+  scrollbar-width: thin;
+  scrollbar-color: #cbd3e5 transparent;
+}
+
+@media (max-width: 900px) {
+  .content {
+    padding: 24px 20px 48px;
+  }
+}
+
+@media (max-width: 640px) {
+  .app-container {
+    min-height: 0;
+  }
+
+  .content {
+    padding: 18px 14px 88px;
+  }
 }
