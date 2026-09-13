@@ -1,1 +1,160 @@
-<h2>Notes</h2>
+<div class="notes-container">
+
+  <div class="page-header">
+    <div>
+      <span class="eyebrow">PLAN • CAPTURE • COMPLETE</span>
+      <h1>Notes & Tasks</h1>
+      <p>Capture ideas, tasks and things you don't want to forget.</p>
+    </div>
+
+    <div class="header-actions">
+      <button class="sync-btn" type="button" [disabled]="githubSyncing" (click)="saveToGitHub()">
+        {{ githubSyncing ? '☁ Saving...' : '☁ Save to GitHub' }}
+      </button>
+      <button class="add-btn" type="button" (click)="openAddForm()">+ Add Note</button>
+    </div>
+  </div>
+
+  <div class="stats-grid">
+    <div class="stat-card"><span>Total</span><strong>{{ notes.length }}</strong><small>All notes & tasks</small></div>
+    <div class="stat-card"><span>Pending</span><strong>{{ pendingCount }}</strong><small>Things to complete</small></div>
+    <div class="stat-card"><span>Completed</span><strong>{{ completedCount }}</strong><small>Already finished</small></div>
+    <div class="stat-card highlight"><span>High Priority</span><strong>{{ highPriorityCount }}</strong><small>Needs attention</small></div>
+  </div>
+
+  <div class="toolbar">
+    <div class="search-box">
+      <span>🔍</span>
+      <input type="text" [(ngModel)]="searchText" placeholder="Search notes and tasks..." />
+      <button *ngIf="searchText" type="button" class="clear-search" (click)="searchText = ''">×</button>
+    </div>
+
+    <div class="filters">
+      <button type="button" [class.active]="filter === 'all'" (click)="filter = 'all'">All</button>
+      <button type="button" [class.active]="filter === 'active'" (click)="filter = 'active'">Active</button>
+      <button type="button" [class.active]="filter === 'completed'" (click)="filter = 'completed'">Completed</button>
+    </div>
+  </div>
+
+  <div class="status-card" *ngIf="loading">
+    <div class="spinner"></div>
+    <p>Loading notes...</p>
+  </div>
+
+  <div class="error-card" *ngIf="error">
+    <strong>Unable to load notes</strong>
+    <p>{{ error }}</p>
+    <button type="button" (click)="loadNotes()">Retry</button>
+  </div>
+
+  <div class="notes-list" *ngIf="!loading">
+    <div class="note-card" *ngFor="let note of filteredNotes; trackBy: trackById" [class.completed]="note.completed">
+
+      <div class="note-check">
+        <button type="button" class="check-btn" [class.checked]="note.completed"
+          (click)="toggleComplete(note)">
+          {{ note.completed ? '✓' : '' }}
+        </button>
+      </div>
+
+      <div class="note-content">
+        <div class="note-top">
+          <div class="note-badges">
+            <span class="category-badge">{{ note.category }}</span>
+            <span class="priority-badge" [ngClass]="'priority-' + note.priority.toLowerCase()">
+              {{ note.priority }}
+            </span>
+          </div>
+          <span class="note-date">{{ formatDate(note.updatedAt) }}</span>
+        </div>
+
+        <h2 [class.strikethrough]="note.completed">{{ note.title }}</h2>
+        <p *ngIf="note.description" [class.strikethrough]="note.completed">{{ note.description }}</p>
+
+        <div class="note-footer">
+          <span *ngIf="note.dueDate" class="due-date" [class.overdue]="isOverdue(note)">
+            📅 {{ formatDueDate(note.dueDate) }}
+          </span>
+
+          <span *ngIf="note.completed" class="completed-label">✓ Completed</span>
+
+          <div class="note-actions">
+            <button type="button" (click)="openEditForm(note)">✏️ Edit</button>
+            <button type="button" class="delete-btn" (click)="deleteNote(note)">🗑️ Delete</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="empty-state" *ngIf="filteredNotes.length === 0">
+      <div class="empty-icon">📝</div>
+      <h2>{{ notes.length === 0 ? 'No notes yet' : 'No matching notes' }}</h2>
+      <p>{{ notes.length === 0 ? 'Start by adding your first task or note.' : 'Try changing your search or filter.' }}</p>
+      <button *ngIf="notes.length === 0" type="button" class="add-btn" (click)="openAddForm()">+ Create First Note</button>
+    </div>
+  </div>
+
+  <div class="modal-backdrop" *ngIf="showForm" (click)="closeForm()">
+    <div class="modal" (click)="$event.stopPropagation()">
+
+      <div class="modal-header">
+        <div>
+          <span class="eyebrow">{{ editingNote ? 'UPDATE NOTE' : 'NEW NOTE' }}</span>
+          <h2>{{ editingNote ? 'Edit Note' : 'Add New Note' }}</h2>
+        </div>
+        <button type="button" class="close-btn" (click)="closeForm()">×</button>
+      </div>
+
+      <div class="form-group">
+        <label>Title</label>
+        <input type="text" [(ngModel)]="formData.title" placeholder="What needs to be done?" maxlength="150" />
+      </div>
+
+      <div class="form-group">
+        <label>Notes / Details</label>
+        <textarea [(ngModel)]="formData.description" rows="5" placeholder="Add additional details..."></textarea>
+      </div>
+
+      <div class="form-grid">
+        <div class="form-group">
+          <label>Category</label>
+          <select [(ngModel)]="formData.category">
+            <option value="General">General</option>
+            <option value="PMP">PMP</option>
+            <option value="Work">Work</option>
+            <option value="Finance">Finance</option>
+            <option value="Personal">Personal</option>
+            <option value="Idea">Idea</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label>Priority</label>
+          <select [(ngModel)]="formData.priority">
+            <option value="Low">Low</option>
+            <option value="Medium">Medium</option>
+            <option value="High">High</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label>Due Date</label>
+        <input type="date" [(ngModel)]="formData.dueDate" />
+      </div>
+
+      <div class="modal-actions">
+        <button type="button" class="cancel-btn" (click)="closeForm()">Cancel</button>
+        <button type="button" class="save-btn" [disabled]="!formData.title.trim()" (click)="saveNote()">
+          {{ editingNote ? 'Save Changes' : 'Save Note' }}
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <div class="github-status" *ngIf="githubMessage || githubError">
+    <span class="github-status-success" *ngIf="githubMessage">{{ githubMessage }}</span>
+    <span class="github-status-error" *ngIf="githubError">{{ githubError }}</span>
+  </div>
+
+</div>

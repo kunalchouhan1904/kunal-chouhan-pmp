@@ -1,0 +1,46 @@
+[
+  {
+    "id": "demo-001",
+    "title": "Prepare PMP study plan",
+    "description": "Review the upcoming week's PMP topics and schedule study sessions.",
+    "completed": false,
+    "priority": "High",
+    "category": "PMP",
+    "dueDate": "2026-09-15",
+    "createdAt": "2026-09-13T10:00:00.000Z",
+    "updatedAt": "2026-09-13T10:00:00.000Z"
+  },
+  {
+    "id": "demo-002",
+    "title": "Update website",
+    "description": "Review the latest changes and clean up unused Angular components.",
+    "completed": false,
+    "priority": "Medium",
+    "category": "Work",
+    "dueDate": "2026-09-16",
+    "createdAt": "2026-09-13T09:00:00.000Z",
+    "updatedAt": "2026-09-13T09:00:00.000Z"
+  },
+  {
+    "id": "demo-003",
+    "title": "Review financial roadmap",
+    "description": "Check the latest roadmap figures and update anything that has changed.",
+    "completed": false,
+    "priority": "Low",
+    "category": "Finance",
+    "dueDate": "",
+    "createdAt": "2026-09-12T12:00:00.000Z",
+    "updatedAt": "2026-09-12T12:00:00.000Z"
+  },
+  {
+    "id": "demo-004",
+    "title": "Complete pending task",
+    "description": "Example completed task.",
+    "completed": true,
+    "priority": "Medium",
+    "category": "General",
+    "dueDate": "",
+    "createdAt": "2026-09-11T12:00:00.000Z",
+    "updatedAt": "2026-09-12T12:00:00.000Z"
+  }
+]
