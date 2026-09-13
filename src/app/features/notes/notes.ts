@@ -54,7 +54,7 @@ export class Notes implements OnInit {
    *
    * After the secure serverless endpoint is created, put its URL here.
    */
-  private readonly githubApiEndpoint =
+  private readonly githubApiEndpoint: string =
     'PASTE_YOUR_SECURE_API_ENDPOINT_HERE';
 
   githubSyncing = false;
@@ -263,8 +263,11 @@ export class Notes implements OnInit {
         return a.completed ? 1 : -1;
       }
 
-      if (priorityOrder[a.priority] !== priorityOrder[b.priority]) {
-        return priorityOrder[a.priority] - priorityOrder[b.priority];
+      const aPriority = priorityOrder[a.priority] ?? Number.MAX_SAFE_INTEGER;
+      const bPriority = priorityOrder[b.priority] ?? Number.MAX_SAFE_INTEGER;
+
+      if (aPriority !== bPriority) {
+        return aPriority - bPriority;
       }
 
       return new Date(b.updatedAt).getTime() -
@@ -300,7 +303,7 @@ export class Notes implements OnInit {
 
     try {
       const endpoint =
-        `${this.githubApiEndpoint.replace(/\\/$/, '')}/save-notes`;
+        `${this.githubApiEndpoint.replace(/\/$/, '')}/save-notes`;
 
       const response = await fetch(endpoint, {
         method: 'POST',
