@@ -26,6 +26,7 @@ interface Note {
 export class Notes implements OnInit {
 
   notes: Note[] = [];
+  
   loading = true;
   error = '';
   searchText = '';
