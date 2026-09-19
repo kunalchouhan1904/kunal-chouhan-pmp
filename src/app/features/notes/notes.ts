@@ -1,130 +1,330 @@
-const GITHUB_API = 'https://api.github.com';
+import { Component, OnInit } from '@angular/core';
+import { CommonModule } from '@angular/common';
+import { FormsModule } from '@angular/forms';
+import { Note } from '../../core/services/NoteService';
 
-interface Env {
-  GITHUB_TOKEN: string;
-  GITHUB_OWNER: string;
-  GITHUB_REPO: string;
-  GITHUB_BRANCH: string;
-  GITHUB_FILE_PATH: string;
-}
+@Component({
+  selector: 'app-notes',
+  standalone: true,
+  imports: [CommonModule, FormsModule],
+  templateUrl: './notes.html',
+  styleUrls: ['./notes.scss']
+})
+export class Notes implements OnInit {
+  notes: Note[] = [];
 
-function response(data: unknown, status = 200): Response {
-  return new Response(JSON.stringify(data), {
-    status,
-    headers: {
-      'Content-Type': 'application/json; charset=utf-8',
-      'Cache-Control': 'no-store'
-    }
-  });
-}
+  loading = true;
+  error = '';
+  searchText = '';
+  filter: 'all' | 'active' | 'completed' = 'all';
 
-function envOrThrow(env: Env): Env {
-  for (const key of [
-    'GITHUB_TOKEN', 'GITHUB_OWNER', 'GITHUB_REPO',
-    'GITHUB_BRANCH', 'GITHUB_FILE_PATH'
-  ] as const) {
-    if (!env[key]) throw new Error(`Missing environment variable: ${key}`);
-  }
-  return env;
-}
+  showForm = false;
+  editingNote: Note | null = null;
 
-function headers(env: Env): HeadersInit {
-  return {
-    'Accept': 'application/vnd.github+json',
-    'Authorization': `Bearer ${env.GITHUB_TOKEN}`,
-    'X-GitHub-Api-Version': '2022-11-28',
-    'User-Agent': 'pmp-notes-app'
+  /*
+   * Same persistence approach used by LearningComponent bookmarks:
+   * browser localStorage.
+   *
+   * Existing key is retained so any notes already stored by the
+   * previous Notes implementation are preserved.
+   */
+  private readonly notesStorageKey = 'notes-todo-data';
+
+  formData = {
+    title: '',
+    description: '',
+    priority: 'Medium' as 'Low' | 'Medium' | 'High',
+    category: 'General',
+    dueDate: ''
   };
-}
 
-async function readGitHubFile(env: Env): Promise<{ notes: unknown[]; sha: string }> {
-  const url =
-    `${GITHUB_API}/repos/${env.GITHUB_OWNER}/${env.GITHUB_REPO}` +
-    `/contents/${env.GITHUB_FILE_PATH}?ref=${encodeURIComponent(env.GITHUB_BRANCH)}`;
-
-  const res = await fetch(url, { headers: headers(env) });
-  if (!res.ok) throw new Error(`GitHub read failed (${res.status}).`);
-
-  const file = await res.json() as { content?: string; sha?: string };
-  if (!file.content || !file.sha) throw new Error('Invalid GitHub file response.');
-
-  const binary = atob(file.content.replace(/\s/g, ''));
-  const bytes = Uint8Array.from(binary, c => c.charCodeAt(0));
-  const notes = JSON.parse(new TextDecoder().decode(bytes));
-
-  if (!Array.isArray(notes)) throw new Error('notes.json must contain an array.');
-  return { notes, sha: file.sha };
-}
-
-export async function onRequestGet(context: { env: Env }): Promise<Response> {
-  try {
-    const env = envOrThrow(context.env);
-    const { notes } = await readGitHubFile(env);
-    return response(notes);
-  } catch (error) {
-    console.error(error);
-    return response({
-      success: false,
-      message: error instanceof Error ? error.message : 'Unable to load notes.'
-    }, 500);
+  ngOnInit(): void {
+    this.loadNotes();
   }
-}
 
-export async function onRequestPut(context: {
-  request: Request;
-  env: Env;
-}): Promise<Response> {
-  try {
-    const env = envOrThrow(context.env);
-    const notes = await context.request.json();
+  /**
+   * Load notes from browser localStorage.
+   *
+   * This follows the same pattern as LearningComponent.restoreBookmark():
+   * localStorage.getItem() -> JSON.parse() -> restore component state.
+   */
+  loadNotes(): void {
+    this.loading = true;
+    this.error = '';
 
-    if (!Array.isArray(notes)) {
-      return response({ success: false, message: 'Notes must be an array.' }, 400);
+    try {
+      const saved = localStorage.getItem(this.notesStorageKey);
+
+      if (!saved) {
+        this.notes = [];
+        this.loading = false;
+        return;
+      }
+
+      const parsed = JSON.parse(saved);
+
+      if (!Array.isArray(parsed)) {
+        console.warn('Saved notes data is not an array.');
+        this.notes = [];
+        this.error = 'Saved notes data is invalid.';
+        this.loading = false;
+        return;
+      }
+
+      this.notes = parsed as Note[];
+      this.sortNotes();
+      this.loading = false;
+    } catch (error) {
+      console.error('Unable to restore notes from localStorage.', error);
+      this.notes = [];
+      this.error = 'Unable to load saved notes.';
+      this.loading = false;
+    }
+  }
+
+  /**
+   * Save the complete notes collection to browser localStorage.
+   *
+   * This is intentionally the same persistence mechanism used by
+   * LearningComponent.saveBookmark().
+   */
+  private saveNotes(): boolean {
+    try {
+      localStorage.setItem(
+        this.notesStorageKey,
+        JSON.stringify(this.notes)
+      );
+
+      return true;
+    } catch (error) {
+      console.error('Unable to save notes to localStorage.', error);
+      this.error = 'Unable to save the note in this browser.';
+      return false;
+    }
+  }
+
+  get filteredNotes(): Note[] {
+    let result = [...this.notes];
+
+    if (this.filter === 'active') {
+      result = result.filter(note => !note.completed);
     }
 
-    const { sha } = await readGitHubFile(env);
-    const content = JSON.stringify(notes, null, 2) + '\n';
-
-    const bytes = new TextEncoder().encode(content);
-    let binary = '';
-    for (let i = 0; i < bytes.length; i += 0x8000) {
-      binary += String.fromCharCode(...bytes.subarray(i, i + 0x8000));
+    if (this.filter === 'completed') {
+      result = result.filter(note => note.completed);
     }
 
-    const url =
-      `${GITHUB_API}/repos/${env.GITHUB_OWNER}/${env.GITHUB_REPO}` +
-      `/contents/${env.GITHUB_FILE_PATH}`;
+    const search = this.searchText.trim().toLowerCase();
 
-    const res = await fetch(url, {
-      method: 'PUT',
-      headers: { ...headers(env), 'Content-Type': 'application/json' },
-      body: JSON.stringify({
-        message: 'Update notes.json',
-        content: btoa(binary),
-        sha,
-        branch: env.GITHUB_BRANCH
-      })
+    if (search) {
+      result = result.filter(note =>
+        note.title.toLowerCase().includes(search) ||
+        note.description.toLowerCase().includes(search) ||
+        note.category.toLowerCase().includes(search)
+      );
+    }
+
+    return result;
+  }
+
+  get pendingCount(): number {
+    return this.notes.filter(note => !note.completed).length;
+  }
+
+  get completedCount(): number {
+    return this.notes.filter(note => note.completed).length;
+  }
+
+  get highPriorityCount(): number {
+    return this.notes.filter(
+      note => !note.completed && note.priority === 'High'
+    ).length;
+  }
+
+  openAddForm(): void {
+    this.editingNote = null;
+
+    this.formData = {
+      title: '',
+      description: '',
+      priority: 'Medium',
+      category: 'General',
+      dueDate: ''
+    };
+
+    this.error = '';
+    this.showForm = true;
+  }
+
+  openEditForm(note: Note): void {
+    this.editingNote = note;
+
+    this.formData = {
+      title: note.title,
+      description: note.description,
+      priority: note.priority,
+      category: note.category,
+      dueDate: note.dueDate
+    };
+
+    this.error = '';
+    this.showForm = true;
+  }
+
+  closeForm(): void {
+    this.showForm = false;
+    this.editingNote = null;
+  }
+
+  /**
+   * Create or update a note and immediately persist it to localStorage.
+   */
+  saveNote(): void {
+    const title = this.formData.title.trim();
+
+    if (!title) {
+      return;
+    }
+
+    const now = new Date().toISOString();
+
+    if (this.editingNote) {
+      const index = this.notes.findIndex(
+        note => note.id === this.editingNote!.id
+      );
+
+      if (index !== -1) {
+        this.notes[index] = {
+          ...this.notes[index],
+          title,
+          description: this.formData.description.trim(),
+          priority: this.formData.priority,
+          category: this.formData.category,
+          dueDate: this.formData.dueDate,
+          updatedAt: now
+        };
+      }
+    } else {
+      const newNote: Note = {
+        id: this.generateId(),
+        title,
+        description: this.formData.description.trim(),
+        completed: false,
+        priority: this.formData.priority,
+        category: this.formData.category,
+        dueDate: this.formData.dueDate,
+        createdAt: now,
+        updatedAt: now
+      };
+
+      this.notes.unshift(newNote);
+    }
+
+    this.sortNotes();
+
+    if (this.saveNotes()) {
+      this.closeForm();
+    }
+  }
+
+  /**
+   * Complete/uncomplete a note and persist the change.
+   */
+  toggleComplete(note: Note): void {
+    note.completed = !note.completed;
+    note.updatedAt = new Date().toISOString();
+
+    this.sortNotes();
+    this.saveNotes();
+  }
+
+  /**
+   * Delete a note and persist the change.
+   */
+  deleteNote(note: Note): void {
+    const confirmed = window.confirm(`Delete "${note.title}"?`);
+
+    if (!confirmed) {
+      return;
+    }
+
+    this.notes = this.notes.filter(item => item.id !== note.id);
+    this.saveNotes();
+  }
+
+  private sortNotes(): void {
+    const priorityOrder: Record<string, number> = {
+      High: 1,
+      Medium: 2,
+      Low: 3
+    };
+
+    this.notes.sort((a, b) => {
+      if (a.completed !== b.completed) {
+        return a.completed ? 1 : -1;
+      }
+
+      const aPriority =
+        priorityOrder[a.priority] ?? Number.MAX_SAFE_INTEGER;
+
+      const bPriority =
+        priorityOrder[b.priority] ?? Number.MAX_SAFE_INTEGER;
+
+      if (aPriority !== bPriority) {
+        return aPriority - bPriority;
+      }
+
+      return new Date(b.updatedAt).getTime() -
+        new Date(a.updatedAt).getTime();
     });
+  }
 
-    const result = await res.json().catch(() => null);
-    if (!res.ok) {
-      console.error('GitHub write:', result);
-      return response({
-        success: false,
-        message: `GitHub write failed (${res.status}).`
-      }, 502);
+  private generateId(): string {
+    return (
+      Date.now().toString(36) +
+      '-' +
+      Math.random().toString(36).substring(2, 9)
+    );
+  }
+
+  trackById(index: number, note: Note): string {
+    return note.id;
+  }
+
+  formatDate(value: string): string {
+    if (!value) {
+      return '';
     }
 
-    return response({
-      success: true,
-      message: 'Notes saved to GitHub.',
-      commit: result?.commit?.sha ?? null
+    return new Date(value).toLocaleDateString('en-IN', {
+      day: '2-digit',
+      month: 'short',
+      year: 'numeric'
     });
-  } catch (error) {
-    console.error(error);
-    return response({
-      success: false,
-      message: error instanceof Error ? error.message : 'Unable to save notes.'
-    }, 500);
+  }
+
+  formatDueDate(value: string): string {
+    if (!value) {
+      return '';
+    }
+
+    return new Date(`${value}T00:00:00`).toLocaleDateString('en-IN', {
+      day: '2-digit',
+      month: 'short',
+      year: 'numeric'
+    });
+  }
+
+  isOverdue(note: Note): boolean {
+    if (!note.dueDate || note.completed) {
+      return false;
+    }
+
+    const today = new Date();
+    today.setHours(0, 0, 0, 0);
+
+    const due = new Date(`${note.dueDate}T00:00:00`);
+
+    return due < today;
   }
 }
