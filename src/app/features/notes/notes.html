@@ -8,9 +8,6 @@
     </div>
 
     <div class="header-actions">
-      <button class="sync-btn" type="button" [disabled]="githubSyncing" (click)="saveToGitHub()">
-        {{ githubSyncing ? '☁ Saving...' : '☁ Save to GitHub' }}
-      </button>
       <button class="add-btn" type="button" (click)="openAddForm()">+ Add Note</button>
     </div>
   </div>
@@ -150,11 +147,6 @@
         </button>
       </div>
     </div>
-  </div>
-
-  <div class="github-status" *ngIf="githubMessage || githubError">
-    <span class="github-status-success" *ngIf="githubMessage">{{ githubMessage }}</span>
-    <span class="github-status-error" *ngIf="githubError">{{ githubError }}</span>
   </div>
 
 </div>

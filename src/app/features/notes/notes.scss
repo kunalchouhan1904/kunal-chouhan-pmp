@@ -43,15 +43,6 @@
   align-items: center;
 }
 
-.add-btn,
-.sync-btn {
-  border-radius: 12px;
-  padding: 11px 17px;
-  font-weight: 850;
-  cursor: pointer;
-  transition: 0.18s ease;
-}
-
 .add-btn {
   border: 0;
   background: linear-gradient(90deg, #315ff1, #5a32d8);
@@ -64,22 +55,6 @@
   box-shadow: 0 10px 22px rgba(75, 59, 225, 0.24);
 }
 
-.sync-btn {
-  border: 1px solid #dfe4f2;
-  background: #fff;
-  color: #4c3bc6;
-  box-shadow: 0 5px 15px rgba(30, 45, 95, 0.06);
-}
-
-.sync-btn:hover {
-  border-color: #bdb4ef;
-  background: #f8f6ff;
-}
-
-.sync-btn:disabled {
-  opacity: 0.55;
-  cursor: not-allowed;
-}
 
 .stats-grid {
   display: grid;
