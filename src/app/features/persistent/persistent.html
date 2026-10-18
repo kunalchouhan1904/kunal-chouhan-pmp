@@ -1,0 +1,81 @@
+<div class="persistent-container">
+  <header class="page-header">
+    <div>
+      <span class="eyebrow">LEARN • UNDERSTAND • APPLY</span>
+      <h1>Persistent — Project Manager Guide</h1>
+      <p>Lesson {{ currentIndex + 1 }} of {{ lessons.length }} · {{ reviewedCount }} reviewed</p>
+    </div>
+
+    <button
+      type="button"
+      class="review-btn"
+      [class.reviewed]="isReviewed(currentLesson.id)"
+      [attr.aria-pressed]="isReviewed(currentLesson.id)"
+      (click)="toggleReviewed(currentLesson.id)">
+      {{ isReviewed(currentLesson.id) ? '✓ Reviewed' : 'Mark as Reviewed' }}
+    </button>
+  </header>
+
+  <div class="learning-layout">
+    <aside class="lesson-sidebar" aria-label="Project manager topics">
+      <h2>Topics</h2>
+      <button
+        type="button"
+        class="lesson-link"
+        *ngFor="let lesson of lessons; let i = index"
+        [class.active]="i === currentIndex"
+        (click)="selectLesson(i)">
+        <span class="lesson-number">{{ i + 1 }}.</span>
+        <span class="lesson-name">{{ lesson.title }}</span>
+        <span class="review-check" *ngIf="isReviewed(lesson.id)" aria-label="Reviewed">✓</span>
+      </button>
+      <div class="progress-track" aria-label="Review progress">
+        <div class="progress-fill" [style.width.%]="(reviewedCount / lessons.length) * 100"></div>
+      </div>
+      <p class="progress-label">{{ reviewedCount }} / {{ lessons.length }} topics reviewed</p>
+    </aside>
+
+    <main class="lesson-content">
+      <div class="lesson-meta">
+        <span class="topic-tag">PROJECT MANAGEMENT</span>
+        <span>Topic {{ currentIndex + 1 }}</span>
+      </div>
+
+      <h2>{{ currentLesson.title }}</h2>
+      <p class="lesson-summary">{{ currentLesson.summary }}</p>
+
+      <h3>Responsibilities & Key Activities</h3>
+      <ol class="responsibility-list">
+        <li *ngFor="let point of currentLesson.points">{{ point }}</li>
+      </ol>
+
+      <section class="takeaway">
+        <h3>Key takeaway</h3>
+        <p>{{ currentLesson.takeaway }}</p>
+      </section>
+
+      <div class="lesson-actions">
+        <button type="button" class="nav-btn" (click)="previousLesson()" [disabled]="currentIndex === 0">
+          ← Previous
+        </button>
+        <button
+          type="button"
+          class="review-btn"
+          [class.reviewed]="isReviewed(currentLesson.id)"
+          [attr.aria-pressed]="isReviewed(currentLesson.id)"
+          (click)="toggleReviewed(currentLesson.id)">
+          {{ isReviewed(currentLesson.id) ? '✓ Reviewed' : 'Mark as Reviewed' }}
+        </button>
+        <button type="button" class="nav-btn primary" (click)="nextLesson()" [disabled]="currentIndex === lessons.length - 1">
+          Next →
+        </button>
+      </div>
+
+      <p class="disclaimer">
+        Learning reference for project-management responsibilities. Confirm specific thresholds, templates,
+        tool workflows, deadlines and approval paths against the latest Persistent policies and the requirements
+        of your account and project.
+      </p>
+    </main>
+  </div>
+</div>

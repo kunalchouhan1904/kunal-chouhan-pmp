@@ -11,7 +11,7 @@ import { Review } from './features/review/review';
 import { Resources } from './features/resources/resources';
 import { Flashcards } from './features/flashcards/flashcards';
 import { Notes } from './features/notes/notes';
-import { Analytics } from './features/analytics/analytics';
+import { Persistent } from './features/persistent/persistent';
 
 export const routes: Routes = [
   {
@@ -29,7 +29,7 @@ export const routes: Routes = [
       { path: 'resources', component: Resources },
       { path: 'flashcards', component: Flashcards },
       { path: 'notes', component: Notes },
-      { path: 'analytics', component: Analytics }
+      { path: 'persistent', component: Persistent }
     ]
   },
 
